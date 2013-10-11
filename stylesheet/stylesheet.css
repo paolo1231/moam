@@ -1,0 +1,1495 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px;
+	padding:0px;
+}
+
+/* PLACE HOLDER */
+
+.placeholder {
+	color:#aaa;
+}
+
+/* NIVO SLIDER STYLE */
+
+/*Slider*/
+.slider-cont {
+	height: 428px;
+	width: 1024px;
+	padding: 0px 0 0px;
+	background: url(../images/about_slider-bg_btm.png) 0 298px repeat-x;
+	position: relative;
+	top: 30px;
+	clear: both;
+	z-index: 100;
+}
+
+.nivoSlider {
+	height:351px; /*controls slider height*/
+}
+
+.theme-default .nivoSlider {
+	border: 6px solid #fff !important;
+}
+
+.theme-default a.nivo-nextNav {
+    right: -20px;
+	background:none;
+	position:absolute;
+}
+.theme-default a.nivo-prevNav {
+    left:-20px;
+	background:none;
+	position:absolute;
+}
+
+.navBtns {
+	width: 850px;
+	position: absolute;
+	margin-left: 80px;
+	display: block;
+	margin-top: 140px;
+}
+
+#previousButton {
+	float: left;
+	text-indent: -9999px;
+	background: url(../images/slider-navi.png) 0 0 no-repeat;
+	width: 78px;
+	height: 77px;
+}
+
+#nextButton {
+	float: right;
+	text-indent: -9999px;
+	background: url(../images/slider-navi.png) 0 -77px no-repeat;
+	width: 78px;
+	height: 77px;
+}
+
+
+.desc {
+	width: 699px;
+	height: auto;
+	margin: 20px auto 10px;
+	color: #636363;
+	line-height: 18px;
+	
+}
+
+.read {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 12px;
+	color: #891111;
+}
+
+/*Content*/
+.content {
+	position: absolute;
+	width: 1024px;
+	height: 610px;
+	background: #F0F0E4 url(images/divider-btm.png) -17px 0 repeat-x;
+	overflow: auto;
+}
+
+.left {
+	width: 640px;
+	min-height: 600px;
+	float: left;
+	background: url(images/chef-3d-fund-begin.png) 0 90px no-repeat;
+}
+
+.left > h3 {
+	width: 452px;
+	height: 40px;
+	padding: 12px 0 0 30px;
+	line-height: 18px;
+	background: url(images/label-thin-left.png) 0 -30px;
+	color: #fff;
+}
+
+.right {
+	width: 350px;
+	min-height: 600px;
+	float: left;
+	height: 100%;
+	background: url(images/bg-right-box.png) left top no-repeat;
+}
+
+.right > .testify > h1 {
+	background: url(images/label-thick-right.png) 0px -30px no-repeat;
+	float: right;
+	width: 310px;
+	height: 70px;
+	padding: 10px 10px 0 0;
+	font-size: 28px;
+	text-align: right;
+	color: #fff;
+}
+
+.right > .testify > h1 > div {
+	font-size:12px;
+	line-height:12px;
+}
+
+.right > .testify > .block {
+	font-size:12px;
+	line-height:14px;
+	text-align:right;
+	margin-bottom:10px;
+}
+
+.right > .testify > .block > .name {
+	font-size:16px;
+	line-height:18px;
+}
+
+.right > .testify, .right > .feature {
+	width:360px;
+}
+
+
+/* END NIVO SLIDER STYLE*/
+
+
+body{
+	background:url(../images/main_background_bg_2.jpg) top left repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.clr{
+	clear:both;
+}
+	
+@font-face {
+    font-family: 'Museo700';
+    src: url('../fonts/museo700-regular.eot');
+   src: url('../fonts/museo700-regular.eot') format('embedded-opentype'),
+         url('../fonts/museo700-regular.woff') format('woff'),
+         url('../fonts/museo700-regular.ttf') format('truetype'),
+         url('../fonts/museo700-regular.svg#Museo700') format('svg');
+}
+	
+	
+.main_bg{
+	width:1024px;
+	height:auto;
+	margin:0 auto;
+	background:#FFFFFF;
+	-webkit-box-shadow: 4px 2px  #a7a7a7,  -4px 0 2px #a7a7a7;   
+	-moz-box-shadow: 4px 0 2px #a7a7a7,  -4px 0 2px #a7a7a7;   
+	box-shadow: 4px 0 2px #a7a7a7,  -4px 0 2px #a7a7a7;
+	padding:10px 0px 0px 0px;
+}
+
+
+
+.logo_tagline{
+	left:207px;
+	position:relative;
+}	
+
+.search_bar{
+	width:174px;
+	height:28px;
+	background:url(../images/top_left_search_bar.png) left 20px no-repeat;
+	float:right;
+	color:#9e0b0f;
+	font-size:10px;
+	padding:26px 0px 0px 5px;
+}
+
+.search_btn{
+	width:23px;
+	height:25px;
+	float:right;
+	position:relative;
+	left:-18px;
+	top:-5px;
+	cursor:pointer;
+	background:url(../images/search_btn.png) top left no-repeat;
+}
+
+.search_btn:hover{
+	width:23px;
+	height:25px;
+	float:right;
+	position:relative;
+	left:-18px;
+	top:-5px;
+	cursor:pointer;
+	background:url(../images/search_btn_hover.png) top left no-repeat;
+}
+
+.nav{
+	width:1024px;
+	height:160px;
+	background:url(../images/new_nav_bg.png) left top repeat-x;
+	font-size:15px;
+	font-family: 'Museo700';
+	text-transform:uppercase;
+	
+}
+.nav img{
+	float: left;
+    left: -6px;
+    position: relative;
+    top: -54px;
+}
+
+.nav ul{
+	list-style:none;
+	list-style-type:none;
+	width:808px;
+	height:auto;
+	padding:76px 0 0 232px;
+	
+}
+
+.nav ul li{
+	list-style:none;
+	list-style-type:none;
+	float:left;
+	color:#FFF;
+	padding:0px 0px 0px 0px;
+}
+
+.nav ul li a{
+	padding:8px 0px 0px 7px;
+	color:#FFFFFF;
+	text-decoration:none;
+	
+}
+
+.nav ul li .about{
+	width:89px;
+	height:33px;
+	display:block;	
+	}
+	
+.nav ul li .about:hover{
+	width:89px;
+	height:33px;
+	background:url(../images/about_us_nav.png) top left no-repeat;
+	display:block;
+	}
+	
+.nav ul li .active{
+	width:89px;
+	height:33px;
+	background:url(../images/about_us_nav.png) top left no-repeat;
+	display:block;
+	}	
+	
+.nav ul li .mission{
+	width:124px;
+	height:33px;
+	display:block;	
+	}
+	
+.nav ul li .mission:hover{
+	width:124px;
+	height:33px;
+	background:url(../images/mission_nav.png) top left no-repeat;
+	display:block;
+	}
+	
+.nav ul li .fundraiser{
+	width:104px;
+	height:33px;
+	display:block;	
+	}
+	
+.nav ul li .fundraiser:hover{
+	width:104px;
+	height:33px;
+	background:url(../images/fundraiser.png) top left no-repeat;
+	display:block;
+	}
+	
+.nav ul li .prize_program{
+	width:134px;
+	height:33px;
+	display:block;	
+	}
+	
+.nav ul li .prize_program:hover{
+	width:134px;
+	height:33px;
+	background:url(../images/prize_program.png) top left no-repeat;
+	display:block;
+	}						
+
+.nav ul li .food_games_nav{
+	width:112px;
+	height:33px;
+	display:block;	
+	}
+	
+.nav ul li .food_games_nav:hover{
+	width:112px;
+	height:33px;
+	background:url(../images/food_games_nav.png) top left no-repeat;
+	display:block;
+	}
+
+.nav ul li .qa_nav{
+	width:57px;
+	height:33px;
+	display:block;	
+	}
+	
+.nav ul li .qa_nav:hover{
+	width:57px;
+	height:33px;
+	background:url(../images/qa_nav.png) top left no-repeat;
+	display:block;
+	}
+	
+.nav ul li .contact_us_nav{
+	width:109px;
+	height:33px;
+	display:block;	
+	}
+	
+.nav ul li .contact_us_nav:hover{
+	width:109px;
+	height:33px;
+	background:url(../images/contact_us_nav.png) top left no-repeat;
+	display:block;
+	}
+
+.fundraiser_text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	text-transform: none;
+	color:#00361b;
+	display:block;
+	background:url(../images/funeral_box1.png) 875px -14px no-repeat;
+	width:1024px;
+	height:104px;
+	margin:-64px 0px 0px 0px;
+	text-align:center;
+	padding:40px 0px 0px 0px;
+}
+
+.fundraiser_text_about{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:32px;
+	font-weight:bold;
+	text-transform: none;
+	color:#00361b;
+	display:block;
+	background:url(../images/funeral_box1.png) 875px -14px no-repeat;
+	width:1024px;
+	height:104px;
+	margin:-64px 0px 0px 0px;
+	text-align:center;
+	padding:40px 0px 0px 0px;
+}
+
+.banner_area{
+	background: url("../images/index_banner_bg.png") repeat-x scroll left 64px transparent;
+    height: auto;
+    width: 1024px;
+}
+
+.banner_area img{
+	left: 80px;
+    position: relative;
+    top: -25px;
+}
+
+.banner_area ul{
+	list-style:none;
+	list-style-type:none;
+	float:right;
+	position:relative;
+	right:94px;
+	top:-8px;
+}
+
+.banner_area ul li{
+	list-style:none;
+	list-style-type:none;
+	float:left;
+	padding:0px 2px 0px 0px;
+}
+
+
+.banner_area_about{
+	background: url("../images/index_banner_bg.png") 0 78px repeat-x scroll transparent;
+	height: 432px;
+	width: 1024px;
+
+}
+
+
+.banner_area_about img{
+	left: 1px;
+    position: relative;
+    top: -26px;
+}
+
+
+.banner_area_about ul{
+	/*float: right;
+    position: relative;
+    right: 22px;
+    top: -24px;*/
+	list-style: none outside none;
+	position: absolute;
+	margin: -20px 0 0 882px;
+}
+
+.banner_area_about ul li{
+	list-style:none;
+	list-style-type:none;
+	float:left;
+	padding:0px 2px 0px 0px;
+}
+
+.banner_bottom_area{
+	width:1024px; 
+	height:auto;
+	margin:0 auto;
+}
+
+.banner_bottom_area .left_area_about{
+	width:555px;
+	height:auto;
+	float:left
+}
+
+
+.left_panel_there_more{
+	width: 555px;
+	height: 460px;
+	background: url(../images/about_left_panel.png) -6px 0px no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #363636;
+	text-align: justify;
+	position: relative;
+	z-index: 1000;
+}
+
+
+.left_panel_there_more .first_text{
+	color: #363636;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    height: 72px;
+    position: relative;
+    right: -162px;
+    text-align: justify;
+    top: 104px;
+    width: 382px;
+}
+
+.left_panel_there_more .first_text{
+	color: #363636;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    height: auto;
+    line-height: 24px;
+    position: relative;
+    right: -146px;
+    text-align: justify;
+    top: 104px;
+    width: 365px;
+}
+
+.left_panel_there_more .second_text{
+	 color: #363636;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    height: auto;
+    position: relative;
+    right: -16px;
+    text-align: justify;
+    top: 104px;
+    width: 494px;
+	line-height:24px;
+}
+
+.who_we_do_panel{
+	width:557px;
+	height:326px;
+	background:url(../images/who_do_we_help_panel.png)top left no-repeat;
+}
+
+.golden_oppurtunitie{
+	width:557px;
+	height:803px;
+	background:url(../images/golden_oppurtunitie_panel.png)top left no-repeat;
+}
+
+.golden_oppurtunitie .text_box1{
+	color: #000000;
+    font-size: 16px;
+    height: auto;
+    line-height: 21px;
+    position: relative;
+    right: -31px;
+    text-align: justify;
+    top: 78px;
+    width: 478px;
+}
+
+.golden_oppurtunitie .text_box2{
+     color: #3440AB;
+    font-size: 16px;
+    height: auto;
+    line-height: 20px;
+    padding: 5px 0 4px;
+    position: relative;
+    right: -31px;
+    text-align: center;
+    top: 78px;
+    width: 478px;
+}
+
+.text_green{
+	color:#145b25;
+}
+
+.text_red{
+	color:#e51f49;
+}
+
+.banner_bottom_area .right_area_about{
+	width:469px;
+	height:auto;
+	float:left
+}
+
+.extra_panel{
+	background: url("../images/extra_extra_right_panel.png") no-repeat scroll 11px 10px transparent;
+    height: 210px;
+    padding: 0 0 30px;
+    width: 469px;
+}
+
+.about_general_inquieis{
+	width:469px;
+	height:923px;
+	background:url(../images/genera_enquiery_about_form.png) 0px 0px no-repeat;
+}
+
+
+
+.about_general_inquieis ul{
+	left: 41px;
+    list-style: none outside none;
+    position: relative;
+    top: 116px;
+}
+
+.about_general_inquieis ul li{
+	list-style:none;
+	list-style-type:none;
+	padding:16px 0px 0px 0px;
+}
+
+
+
+.input_about{
+	background:url(../images/about_input_box.png) top left no-repeat;
+	width:394px;
+	height:40px;
+	display:block;
+	border:none;
+	padding-left: 10px;
+}
+
+.form_about{
+	background:url(../images/form_about.png) top left no-repeat;
+	width:384px;
+	height:188px;
+	display:block;
+	border:none;
+	padding: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	resize: none;
+}
+
+.count_me_btn{
+	background: url("../images/count_me_about.png") no-repeat scroll left top transparent;
+    border: medium none;
+    display: block;
+    height: 51px;
+    left: 211px;
+    position: relative;
+    top: 31px;
+    width: 170px;
+	cursor:pointer;
+}
+
+.count_me_btn:hover{
+	background:url(../images/count_me_about_hover.png) top left no-repeat;
+	width:170px;
+	height:51px;
+	display:block;
+}
+
+
+.church_block{
+	background: url("../images/church_bg.png") no-repeat scroll left top transparent;
+    height: 508px;
+    left: 67px;
+    position: relative;
+    top: -22px;
+    width: 375px;
+
+}
+
+.church_block p{
+	color: #363636;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    height: auto;
+    left: 16px;
+    position: relative;
+    text-align: center;
+    top: 173px;
+    width: 350px;
+	line-height:25px;
+}
+
+.half_chef{
+	background: url("../images/half_chef.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 115px;
+    left: -69px;
+    position: relative;
+    top: 28px;
+    width: 70px;
+}
+
+
+
+
+
+.scroll_down_text{
+	width:1004px;
+	height:110px;
+	font-size:20px;
+	font-family: 'Museo700';
+	text-align:center;
+	margin:-20px 0px 0px 0px;
+	padding:0px 10px 0px 10px;
+	background:url(../images/divider_line.jpg) bottom repeat-x;
+}
+
+.scroll_down_text_about{
+	width:1004px;
+	height:40px;
+	font-size:20px;
+	font-family: 'Museo700';
+	text-align:center;
+	margin:-20px 0px 0px 0px;
+	padding:0px 10px 0px 10px;
+	background:url(../images/divider_line.jpg) bottom repeat-x;
+}
+
+
+.amazing_interview_block{
+	width:1024px;
+	height:auto;
+	background:#f0f0e7;
+}
+
+.amazing_interview_block .left_part{
+	width:666px;
+	height:auto;
+	float:left;
+}
+
+.amazing_interview_block .right_part{
+	width:358px;
+	height:auto;
+	float:left;
+}
+
+
+.press_play{
+	width:324px;
+	height:71px;
+	background:url(../images/press_play_btn.png) top left no-repeat;
+	display:block;
+	margin:16px 0px 0px 14px;
+}
+
+.press_play:hover{
+	width:324px;
+	height:71px;
+	background:url(../images/press_play_btn_hover.png) top left no-repeat;
+	display:block;
+	margin:16px 0px 0px 14px;
+}
+
+.press_play_input_bg{
+	width:358px;
+	height:496px;
+	background:url(../images/press_play_input_bg.png) top left no-repeat;
+	padding:0px 0px 0px 0px;
+}
+
+.press_play_input_bg p{
+	font-family: 'Museo700';
+	font-size:18px;
+	color:#363636;
+	text-align:justify;
+	font-size:18px;
+	padding:25px 20px 0px 20px;
+}
+
+.press_play_input_bg p img{
+	padding:10px 0px 0px 15px;
+}
+
+.press_play_input_bg ul {
+	list-style:none;
+	list-style-type:none;
+	padding:10px 0px 0px 20px;
+}
+
+.press_play_input_bg ul li {
+	
+	padding:10px 0px 0px 0px;
+}
+
+.press_play_input_bg ul li input {
+	background:url(../images/input_box_bg.png) top left no-repeat;
+	width:314px;
+	height:40px;
+	border:none;	
+}
+
+
+
+.press_play_input_bg ul li input {
+	background:url(../images/input_box_bg.png) top left no-repeat;
+	width:314px;
+	height:40px;
+	border:none;
+	padding:0px 0px 0px 5px;
+}
+
+.press_play_input_bg ul li .submit {
+	width:264px;
+	height:49px;
+	background:url(../images/submit_btn.png) 70px top no-repeat;
+	cursor:pointer;
+}
+
+.press_play_input_bg ul li .submit:hover {
+	width:264px;
+	height:49px;
+	background:url(../images/submit_btn_hover.png) 70px top no-repeat;
+	cursor:pointer;
+}
+
+.help_support{
+	width:1024px;
+	height:auto;
+}
+
+.help_support p{
+	font-family: 'Museo700';
+	font-size:20px;
+	text-align:center;
+	background:#f0f0e7;
+	padding:0px 100px 0px 100px;
+}
+
+.footer_nav{
+	width:1024px;
+	height:auto;
+	background:#003309;
+	margin:0 auto;
+	
+}
+
+.footer_left{
+	width:710px;
+	height:auto;
+	float:left;
+	font:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	padding:10px 0px 10px 10px;
+}
+
+.footer_right{
+	width:294px;
+	height:auto;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	padding:10px 0px 10px 0px;
+}
+
+.footer_right ul{
+	list-style:none;
+	list-style-type:none;	
+}
+
+.footer_right ul li{
+	list-style:none;
+	list-style-type:none;
+	float:left;
+	padding:0px 10px 0px 0px;
+}
+
+.footer_right ul li a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.footer_right ul li a:hover{
+	color:#FFF;
+	text-decoration:underline;
+}
+
+.mid_second{
+	width:1024px;
+	height:auto;
+}
+
+
+
+/*---------------------------contact_page-------------------------------------------*/
+
+.contact_page_heading_text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	font-weight:bold;
+	text-transform: none;
+	color:#00361b;
+	display:block;
+	background:url(../images/funeral_box1.png) 882px 2px no-repeat;
+	width:1024px;
+	height:auto;
+	margin:-80px 0px 0px 0px;
+	text-align:center;
+}
+
+
+.contact_bg_1{
+	width:1026px;
+	min-height:644px;
+	background:url(../images/contact_page_1_bg.png) 8px top no-repeat #4b2c0f;
+}
+
+.contact_bg_1 .fridge_1{
+	background: url("../images/fridge_1.png") no-repeat scroll 50px 67px transparent;
+    border: 1px solid transparent;
+    height: 607px;
+    width: 356px;
+	float:left;
+}
+
+.fridge_handle {
+    background: url("../images/open_door_1.png") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 197px;
+    margin: 22px 0 0 104px;
+    width: 26px;
+}
+
+.gallery_1{
+	background: url("../images/gallery_2_s.jpg") no-repeat scroll left top transparent;
+    display: block;
+    height: 97px;
+    margin: 120px 0 0 145px;
+    width: 88px;
+}
+
+.gallery_1:hover{
+	background: url("../images/gallery_2_b.jpg") no-repeat scroll left top transparent;
+    display: block;
+    height: 129px;
+    margin: 120px 0 0 145px;
+    width: 116px;
+}
+
+.gallery_2 {
+    background: url("../images/gallery_1_s.jpg") no-repeat scroll left top transparent;
+    display: block;
+    height: 97px;
+    margin: -64px 0 0 174px;
+    width: 88px;
+}
+
+
+
+.gallery_2:hover {
+    background: url("../images/gallery_1_b.jpg") no-repeat scroll left top transparent;
+    display: block;
+    height: 127px;
+    margin: -64px 0 0 174px;
+    width: 115px;
+}
+
+
+
+
+.fridge_top{
+	width:356px;
+	height:400px;
+}
+
+.fridge_bottom{
+	width:356px;
+	height:207px;
+}
+
+
+.notepad_1{
+	width:53px;
+	height:59px;
+	background:url("../images/yello_notepad_s.jpg") no-repeat scroll left top transparent;
+	display:block;
+	margin:-80px 0 0 155px;
+}
+
+.notepad_1:hover{
+	width:75px;
+	height:83px;
+	background:url("../images/yello_notepad_b.jpg") no-repeat scroll left top transparent;
+	display:block;
+	margin:-80px 0 0 155px;
+}
+
+/*open fridege page*/
+
+.contact_bg_1 .fridge_2{
+	background: url("../images/fridge_2.png") no-repeat scroll 50px 67px transparent;
+	border: 1px solid transparent;
+    height: 604px;
+    width: 592px;
+	float:left;
+}
+
+
+.tray_1 {
+    height: 140px;
+    margin: 95px 0 0 99px;
+    position: relative;
+    width: 414px;
+}
+
+
+.tray_1 ul{
+	list-style:none;
+	list-style-type:none;
+	width:78px;
+	height:140px;
+}
+
+.tray_1 ul li{
+	list-style:none;
+	list-style-type:none;
+	float:left
+}
+
+
+.milkwrapper {
+    height: 123px;
+    left: 10px;
+    position: absolute;
+    top: 16px;
+    width: 59px;
+}
+
+
+.milk {
+  background: url("../images/milk_s.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 129px;
+    width: 79px;
+}
+.milk:hover {
+    background: url("../images/milk_b.png") no-repeat scroll 10px 10px transparent;
+    display: block;
+    height: 200px;
+    width: 124px;
+	z-index:9999px;
+}
+
+.fruit_bkst {
+    background: url("../images/furit_basket.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 114px;
+    width: 131px;
+}
+
+.fruit_bkst:hover{
+	background: url("../images/furit_basket_big.png") no-repeat scroll 144px 15px transparent;
+    float: left;
+    height: 344px;
+    width: 496px;
+
+}
+
+
+.egg_bkstwrapper {
+    height: 94px;
+    left: 93px;
+    position: absolute;
+    top: 24px;
+    width: 111px;
+}
+
+
+.egg_bkst{
+	background: url("../images/egg_s.png") no-repeat scroll 79px 22px transparent;
+    float: left;
+    height: 120px;
+    width: 187px;
+}
+
+
+
+
+.tray_2{
+	height: 83px;
+    margin: 22px 0 0 99px;
+    width: 216px;
+}
+	
+	
+.carret{
+	background: url("../images/carret.png") no-repeat scroll 23px 51px transparent;
+    display: block;
+    float: left;
+    height: 83px;
+    width: 114px;
+	
+}
+
+.butter_basket{
+	background: url("../images/butter_s.png") no-repeat scroll 37px 36px transparent;
+    float: left;
+    height: 87px;
+    width: 155px;
+}
+
+
+.butter_basket:hover{
+	background: url("../images/butter_b.png") no-repeat scroll 0 -9px transparent;
+    height: 126px;
+    width: 284px;
+	float:left;
+}	
+
+.tray_3{
+	height: 86px;
+    margin: 25px 0 0 99px;
+    width: 216px;
+}
+
+
+.bread{
+	background: url("../images/bread_s.png") no-repeat scroll 36px 1px transparent;
+    float: left;
+    height: 72px;
+    width: 205px;
+}
+
+
+.tray_4{
+	height: 86px;
+    margin: 25px 0 0 99px;
+    width: 216px;
+}
+
+
+.bread_butter{
+	background: url("../images/bread_butter_s.png") no-repeat scroll 24px 29px transparent;
+    display: block;
+    float: left;
+    height: 77px;
+    width: 130px;
+	
+}
+
+
+
+.vegi{
+	 background: url("../images/btm_veg.png") no-repeat scroll 58px 22px transparent;
+    float: left;
+    height: 76px;
+    width: 124px;
+
+
+}
+
+
+
+.feedback {
+    background: url("../images/little_chef_participation.png") no-repeat scroll left top transparent;
+    display: none;
+    float: left;
+    height: 431px;
+    width: 308px;
+}
+.btn_cls{
+	position:relative;
+	top:-22px; 
+	left:22px;
+}
+
+.show_alert{
+	background: url("../images/show_my_art_btn.jpg") repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 33px;
+    margin: 4px 0 0 28px;
+    width: 123px;
+}
+
+.bottel_popup {
+    background-image: url("../images/bottel_pop1.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: none;
+    float: left;
+    height: 607px;
+    width: 377px;
+}
+
+.bottel_popup img{ margin: 355px 0 0 -4px;}
+.revl_form{
+	background: url("../images/food_games_popup.png") no-repeat scroll left top transparent;
+    display: none;
+    float: left;
+    height: 771px;
+    width: 308px;
+ }
+
+/*contact bread page*/
+
+.big_bread{
+	background: url("../images/bread_big.png") no-repeat scroll 16px 162px transparent;
+    height: 364px;
+    padding: 290px 0 0 75px;
+    width: 1009px;
+}
+
+.contact_area{
+	width:585px;
+	height:270px;
+	font-family:"Myriad Pro";
+}
+
+.contact_area p{
+	font-size:16px;
+	color: #FFF;
+	text-align:justify;
+	padding:8px 0px 14px 0px;
+}
+
+.input_text{
+	background:url(../images/input_text.png) top left no-repeat;
+	width:220px;
+	height:31px;
+	border:none;
+	font-size:12px;
+	color:#6f7278;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 0px;
+}
+
+.select_contact{
+	background:url(../images/input_text.png) top left no-repeat;
+	width:220px;
+	height:30px;
+	border:none;
+	font-size:12px;
+	color:#6f7278;
+	padding:4px 0px 0px 10px;
+}
+
+.text_area{
+	background:url(../images/text_area_bg.png) top left no-repeat;
+	width:220px;
+	height:111px;
+	border:none;
+	font-size:12px;
+	color:#6f7278;
+	padding:4px 0px 0px 10px;
+}
+
+.contact_btn{
+	width:112px;
+	height:33px;
+	background:url(../images/contact_btn.png)top left no-repeat;
+	cursor:pointer;
+	border:none;
+}
+
+.contact_btn:hover{
+	width:112px;
+	height:33px;
+	background:url(../images/contact_btn_hover.png)top left no-repeat;
+	cursor:pointer;
+	border:none;
+}
+
+
+/*new*/
+
+.btn_cls {
+    background: url("../images/pop_cross_btn.png") no-repeat scroll left top transparent;
+    height: 36px;
+    left: 22px;
+    position: relative;
+    top: -22px;
+    width: 44px;
+    z-index: 10;
+}
+
+
+.little_chef_pep{
+	width:308px;
+	height:auto;
+	padding:0px 0px 0px 26px;
+}
+
+.little_chef_pep ul{
+	list-style:none;
+	list-style-type:none;
+}
+
+
+.little_chef_pep ul li{
+	list-style:none;
+	list-style-type:none;
+	padding:0px 0px 10px 0px;
+	width:260px;
+}
+
+
+
+.chef_input{
+	background:url(../images/chef_input_bg.png) top left no-repeat;
+	width:220px;
+	height:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6f7278;
+	border:none;
+}
+
+.chef_input1{
+	background:url(../images/chef_input_bg.png) top left no-repeat;
+	width:220px;
+	height:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6f7278;
+	border:none;
+}
+
+
+.fruit_bkstwrapper {
+    height: 114px;
+    left: 93px;
+    position: absolute;
+    top: 24px;
+    width: 131px;
+}
+
+.egg_bkst {
+    background: url("../images/egg_s.png") no-repeat scroll left top transparent;
+    border: 1px solid transparent;
+    display: block;
+    height: 200px;
+    left: 208px;
+    position: absolute;
+    top: 0;
+    width: 400px;
+}
+
+
+.egg_bkst_bg {
+    background: url("../images/egg_bg.png") no-repeat scroll left top transparent;
+    height: 364px;
+    left: 399px;
+    margin: 0;
+    position: absolute;
+    top: 80px;
+    width: 379px;
+    z-index: 999;
+}
+.egg_bkst_bg ul {
+    list-style: none outside none;
+    position: relative;
+    width: auto !important;
+}
+.egg_bkst_bg ul li {
+    float: left;
+    list-style: none outside none;
+}
+.egg_bkst_bg ul .facb {
+    background: url("../images/fb_btn.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    height: 110px;
+    left: 62px;
+    position: absolute;
+    top: 146px;
+    width: 76px;
+    z-index: 99;
+}
+
+.egg_bkst_bg ul .facb:hover {
+    background: url("../images/fb_btn_hover.png") no-repeat scroll left top transparent;
+	top: 136px;
+
+}
+
+.egg_bkst_bg ul .twt {
+    background: url("../images/tw_btn.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    height: 110px;
+    left: 155px;
+    position: absolute;
+    top: 146px;
+    width: 76px;
+    z-index: 9;
+}
+
+
+.egg_bkst_bg ul .twt:hover {
+    background: url("../images/tw_btn_hover.png") no-repeat scroll left top transparent;
+  	top: 136px;
+    
+}
+
+
+
+.egg_bkst_bg ul .yotbe {
+    background: url("../images/you_btn.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    height: 110px;
+    left: 249px;
+    position: absolute;
+    top: 146px;
+    width: 76px;
+}
+
+.egg_bkst_bg ul .yotbe:hover {
+    background: url("../images/you_btn_hover.png") no-repeat scroll left top transparent;
+    top: 136px;
+}
+
+
+.egg_bkst_bg ul .in_btn {
+    background: url("../images/in_btn.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    height: 74px;
+    left: 62px;
+    position: absolute;
+    top: 198px;
+    width: 76px;
+    z-index: 999;
+}
+
+
+.egg_bkst_bg ul .in_btn:hover{
+    background: url("../images/in_btn_hover.png") no-repeat scroll left top transparent;
+	top: 188px;
+	 height: 84px;
+}
+
+.egg_bkst_bg ul .g_btn{
+    background: url("../images/g_btn.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    height: 74px;
+    left: 155px;
+    position: absolute;
+    top: 198px;
+    width: 76px;
+    z-index: 999;
+}
+
+.egg_bkst_bg ul .g_btn:hover{
+    background: url("../images/g_btn_hover.png") no-repeat scroll left top transparent;
+    top: 188px;
+	 height: 84px
+}
+
+.egg_bkst_bg ul .inst_btn{
+    background: url("../images/inst_btn.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    height: 74px;
+    left: 249px;
+    position: absolute;
+    top: 198px;
+    width: 76px;
+    z-index: 999;
+}
+
+.egg_bkst_bg ul .inst_btn:hover{
+    background: url("../images/inst_btn.png") no-repeat scroll left top transparent;
+    top: 188px;
+	 height: 84px
+}
+
+
+.food_games_popup_form {
+    display: block;
+    height: auto;
+    margin: 480px 0 0;
+    width: 304px;
+}
+
+.food_games_popup_form ul {
+    list-style: none outside none;
+}
+
+.food_games_popup_form ul li {
+    list-style: none outside none;
+}
+
+
+input[type="submit"] {
+    background: url("../images/show_my_art_btn.jpg") repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 33px;
+    margin: 4px 0 0 28px;
+    width: 123px;
+}
+
+
+.chef_input {
+    background: url("../images/chef_input_bg.png") no-repeat scroll left top transparent;
+    border: medium none;
+    color: #6F7278;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 30px;
+    width: 220px;
+}
+
+
+
+/*new*/
+
