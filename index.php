@@ -34,25 +34,7 @@
 <div id="wrap">
   <div id="page">
     <div id="header">
-      <div class="floatL"><img src="images/moam_logo_img.png" /></div>
-      <div class="floatL" style="width:800px; padding-top:10px;">
-        <div class="floatL"><img src="images/moam_logo_text.png" /></div>
-        <div class="floatR">
-          <span id="search" class="searchbox round"><form method="" action=""><input type="text" name="search-btn" placeholder="Search" /><input type="submit" name="submit-search" class="search-btn" /></form>
-          </span>
-        </div>
-        <div class="clear"></div>
-        <ul id="nav">
-          <li><a href="index_about_us.php" class="round">About Us</a></li>
-          <li><a href="" class="round">Mission News</a></li>
-          <li><a href="" class="round">Fundraiser</a></li>
-          <li><a href="" class="round">Prize Program</a></li>
-          <li><a href="" class="round">Food Games</a></li>
-          <li><a href="" class="round">Q & A</a></li>
-          <li><a href="contact_us_1.php" class="round">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="tagline">The fundraiser changing the world, one bite at a time!</div>
+		<?php include_once "header.php" ?>
     </div>
     
     <div id="sliderbox">
@@ -65,10 +47,14 @@
       <div class="slider-wrapper theme-default">
         <div class="navBtns"><a href="#" id="previousButton" class="floatL"><img src="images/slide-arrow-left.png" /></a><a href="#" id="nextButton" class="floatR"><img src="images/slide-arrow-right.png" /></a></div>
           <div id="slider" class="nivoSlider">
+            <a href=""><iframe width="420" height="315" src="//www.youtube.com/embed/Zdc9BYYViuA" frameborder="0" allowfullscreen></iframe></a>
             <a href=""><img src="images/slide-1.jpg" alt="" title="" /></a>
             <a href=""><img src="images/slide-2.jpg" alt="" title="" /></a>
             <a href=""><img src="images/slide-3.jpg" alt="" title="" /></a>
             <a href=""><img src="images/slide-4.jpg" alt="" title="" /></a>
+            <a href=""><img src="images/slide-5.jpg" alt="" title="" /></a>
+            <a href=""><img src="images/slide-6.jpg" alt="" title="" /></a>
+            <a href=""><img src="images/slide-7.jpg" alt="" title="" /></a>
           </div>
         </div>
     </div>
@@ -80,13 +66,23 @@
     <div id="main">
       <div class="divider"></div>
       <div class="floatL">
-        <img src="images/fundraising_circuit_movie_bg.png" />
+      	<div id="intervid">
+        <h2>To View The Entertaining Campaign Interview With The <br />Founder And CEO And Their Mascot... Chef Pepe Roni!</h2>
+        <iframe width="615" height="415" src="//www.youtube.com/embed/Ewu40HCUZuY" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="socialbox2">    
+            <a href="#"><img src="images/fb_icon2.png" width="30" alt=""></a>
+            <a href="#"><img src="images/linkedin_icon.png" width="30" alt=""></a>
+            <a href="#"><img src="images/twitter_icon2.png" width="30" alt=""></a>
+            <a href="#"><img src="images/googleplus_icon.png" width="30" alt=""></a>
+        </div>
       </div>
       <div class="floatR subs-form">
         <a href="" class="play-vid">Press to Play</a>
         <div class="clear" style="height:30px;"></div>
-        <p>We're very excited about our seeding campaign. Our goal is to ensure that we help everybody in need. Be involved and become our partner as we meet that goal by filling out the form below.</p>
-        <p>We will keep you updated regarding the upcoming events, news, and our official launch date!</p>
+        <p align="justify">We're very excited about our seeding campaign. Our goal is to ensure that we help everybody in need.</p>
+        <p align="justify">Be involved and become our partner as we meet that goal by filling out the form below.</p>
+        <p align="justify">We will keep you updated regarding the upcoming events, news, and our official launch date!</p>
         <center><img src="images/your_group_text.png" /></center>
         <div class="clear" style="height:10px;"></div>
         <form method="" action="">
@@ -96,8 +92,9 @@
         </form>
       </div>
       <div class="clear"></div>
-      <h2><font color="#095807">Help support our cause</font> and <font color="#095807">spread the word</font> by clicking on the link to learn more<br />about helping us on this meaningful endeavour.</h2>
-      <h2>You can participate by <font color="#095807">DONATING</font> in which you are given <font color="#095807">REWARDS</font> for helping us reach<br />our pre-launch seeding campaign goals or by SHARING this opportunity with others who<br />are also interested in helping others.</h2>
+      <h2><font color="#095807">Meals on a Mission</font> would like to give you the honor and privilege <br />to invest in an initiative that WILL HAVE significant consequences and value.</h2>
+      <h2>There are rewards for everyone that participates. Please consider a donation <br />and share this link with others. Help us change the world….one bite at a time! </h2>
+      <h2>Thank you again! God bless everyone!</h2>
       <center><img src="images/need-fix.jpg" /></center>
     </div>
     <div class="moam-link"><a href="http://www.gofundme.com/meals-ona-mission">www.GoFundMe.com/Meals-OnA-Mission</a></div>
@@ -106,10 +103,7 @@
   <div class="page-bottom"></div>
   <div id="bottom">
     <div class="bottom-cont">
-      <div class="floatL">Copyright &copy; 2012. All rights reserved. MEALS ON A MISSION.</div>
-      <div class="floatR links">
-        <a href="">Contact Us</a>&bull;<a href="">Terms of Service</a>&bull;<a href="" class="last">Privacy Policy</a>
-      </div>
+		<?php include_once "footer.php" ?>
     </div>
   </div>
 </div>

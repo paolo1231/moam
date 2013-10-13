@@ -162,6 +162,12 @@ ul.social li{
 #socialbox{
 	background: none; height: 60px;
 }
+#intervid {
+	padding-left:20px;
+}
+#socialbox2{
+	float: right; background: none; height: 52px; 
+}
 
 /* Contacts Page */
 #contactbox{
