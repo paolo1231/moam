@@ -48,10 +48,10 @@
       <div class="divider"></div>
       <div class="floatL">
       	<div id="intervid">
-        <h2>To View The Entertaining Campaign Interview With The <br />Founder And CEO And Their Mascot... Chef Pepe Roni!</h2>
+        <img src="images/intervid-header.png"/>
         <iframe width="615" height="415" src="//www.youtube.com/embed/Ewu40HCUZuY" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div id="socialbox2">    
+        <div id="socialbox2" align="right">    
             <a href="#"><img src="images/fb_icon2.png" width="30" alt=""></a>
             <a href="#"><img src="images/linkedin_icon.png" width="30" alt=""></a>
             <a href="#"><img src="images/twitter_icon2.png" width="30" alt=""></a>
@@ -87,10 +87,11 @@
         <div class="floatR" id="fund-countdown">
         	<h2 align="center">COUNTDOWN TO THE END OF OUR CROWDFUNDING CAMPAIGN</h2>
             <?php include_once "countdown.php" ?>
+            <a href="#"><div class="floatL fundraising-button"><h3 align="center">Interested Investors</h3></div></a>
+            <a href="#"><div class="floatL fundraising-button2"><h3 align="center">Indiegogo Crowdfunding Campaign</h3></div></a>
         </div>
       </div>
     </div>
-    <div class="moam-link"><a href="http://www.gofundme.com/meals-ona-mission">www.GoFundMe.com/Meals-OnA-Mission</a></div>
     <div class="clear"></div>
   </div>
   <div class="page-bottom"></div>

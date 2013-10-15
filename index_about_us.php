@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>index</title>
+<title>About Us</title>
 
 <link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="js/default/default.css" type="text/css" media="screen" />
@@ -115,21 +115,16 @@
 </div> 
 
   <div class="fundraiser_text_about">
-The fundraiser changing the world, <br />
-one bite at a time!
+The fundraiser changing the world, one bite at a time!
 
   </div>
   
-  
-  
-  <div class="scroll_down_text_about">
-  
-  </div>
+  <div class="scroll_down_text_about"></div>
   
   <div class="banner_area_about" >
   
   	
-    <ul>
+    <ul class="social">
     	<li>
           <a href="#">
         <img src="images/rss_icon.png" width="28" height="26" alt="" />
@@ -161,16 +156,10 @@ one bite at a time!
             <div class="slider-wrapper theme-default">
 				<div class="navBtns"> <a href="#" id="previousButton">Prev</a> <a href="#" id="nextButton">Next</a> </div>
 				<div id="slider" class="nivoSlider">
+                	<img src="images/abt-banner-1.jpg" data-thumb="images/abt-banner-1.jpg" alt=""  />
 					<img src="images/abt-banner-3.jpg" data-thumb="images/abt-banner-3.jpg" alt="" />
 					<img src="images/abt-banner-2.jpg" data-thumb="images/abt-banner-2.jpg" alt="" />
-					<img src="images/abt-banner-4.jpg" data-thumb="images/abt-banner-4.jpg" alt=""  /><!--title="#htmlcaption"-->
-                    <img src="images/abt-banner-1.jpg" data-thumb="images/abt-banner-1.jpg" alt=""  /><!--title="#htmlcaption2"-->
-				</div>
-				<div id="htmlcaption" class="nivo-html-caption">
-					<strong>This</strong> is Caption #1 with <a href="#">a link</a>. 
-				</div>
-                <div id="htmlcaption2" class="nivo-html-caption">
-					<strong>This</strong> is Caption #2 with <a href="#">a link</a>. 
+					<img src="images/abt-banner-4.jpg" data-thumb="images/abt-banner-4.jpg" alt=""  />
 				</div>
 			</div>
     </div>
@@ -186,14 +175,12 @@ one bite at a time!
                 	
                     <p class="first_text">
                     Our mission is to embark on a life-changing journey where Meals on a Mission’s 	
-                    Outreach will help create local community gardens using the latest in Green  
+                    Outreach will help create local community gardens using the latest in Green
                     </p>
                     
-                     <p class="second_text">
-Technology.  These gardens will be used to support programs that will teach our community youth on how to cook alongside imparting valuable life long lessons of family balance and humility.
-<br />                                      
-These communities are going to host bi-annual tasting galas in which students will be participating and serving the meals to other children invitees – all of whom comes from abused, orphaned or trafficked homes. This opportunity creates a humbling level of equality for all the participants and spectators alike. Furthermore, this endeavour raises awareness and develops a new generation of individuals who possess technical skills which can be passed on to future generations.
-                    </p>
+                     <p class="second_text">Technology. <br/><br/>These gardens will be used to support programs that will teach our community youth on how to cook alongside imparting valuable life long lessons of family balance and humility.
+<br />  <br />                                    
+These communities are going to host semi-annual tasting galas in which students will be participating and serving the meals to other children invitees – all of whom comes from abused, orphaned or trafficked homes. This opportunity creates a humbling level of equality for all the participants and spectators alike. Furthermore, this endeavour raises awareness and develops a new generation of individuals who possess technical skills which can be passed on to future generations.</p>
 
                 
                 
@@ -205,32 +192,32 @@ These communities are going to host bi-annual tasting galas in which students wi
                 <div class="golden_oppurtunitie">
                 	
                     <p class="text_box1">
-                    <strong class="text_green">PREMIUM LOGO AD SPOTS — </strong>  Our solution is pure and simple. We provide a clean and efficient way to market your website. Your ads are strategically placed on our webpage, on a billboard next to our Chef, which attracts more attention and site visitors. For more information, send us an email at: (insert address) and we will gladly provide all the information you need.
+                    <strong class="text_green">PREMIUM LOGO AD SPOTS — </strong>  Our solution is pure and simple. We provide a clean and efficient way to market your website. Your ads are strategically placed on our webpage, on a billboard next to our Chef, which attracts more attention and site visitors. For more information, send us an email and we will gladly provide all the information you need.
 
                     </p>
                     
                     <p class="text_box2">
       <strong class="text_red"> Be a PIONEER in the INDUSTRY!</strong><br />
-       <strong class="text_green">Email Us At:</strong> LogoAdSpots@meals-ona-mission.com
+       <strong class="text_green">Email Us At:</strong> LogoAdSpots@meals-ona-mission.com <br /><br />
 
 
                     </p>
                     
                     <p class="text_box1">
-                    <strong class="text_green">CHEF PEPE GAME LOGO SPOTS — </strong>  We are the PIONEER in Social Networking using a NEW online Gaming Program in the Fund Raising industry. Our assurance to you: Participants WILL be navigating a page on your website! That’s right, you heard us! Your COMPANY LOGO link is a gatekeeper to an extraordinary, exciting and cutting-edge gaming platform that helps an organization meet its goal! The BEST PART is that  60% of the acquired funds from CPV, are allocated to participating organizations! It’s a win-win situation! You get all the advertising you need while you’re helping out the organization!
+                    <strong class="text_green">FOOD GAMES FOR FUND$ — </strong>  : We are the PIONEER in Social Networking using a NEW online Gaming Platform in the Fundraising industry. Our assurance to ALL participating web-businsses: Game Players WILL be navigating a page on your website! That’s right, you heard us! Your COMPANY LOGO link is a gatekeeper to an extraordinary, exciting and cutting-edge gaming platform that helps an organization meet its goal! And the BEST PART is that 60% of the acquired revenue from playing, are allocated to participating organizations! It’s a win-win situation! You get all the advertising you need while you’re helping out the organization!
 
                     </p>
                     
                     <p class="text_box2">
       <strong class="text_red"> Be a part of this compelling REVOLUTION!</strong><br />
-       <strong class="text_green">Email Us At:</strong> ChefGames@meals-ona-mission.com
+       <strong class="text_green">Email Us At:</strong> ChefGames@meals-ona-mission.com <br /><br />
 
 
                     </p>
                     
                     <p class="text_box1">
                     <strong class="text_green">ALL FUNERAL RELATED BUSINESS -—</strong>  We must actively bring conscious awareness to humanity that people are passing without a proper transitions to their permanent resting place. This uneasy truth needs to be revisited in a different yet well needed and compassionate way.
-                    Meals on a Mission supports families by ensuring availability to all who are in need of financial support and assistance the ability to bury their loved ones under the age of 18 with grace and ease. Healing starts from within but our connection and support is a universal movement that will impact humanity especially if exercised with love and compassion.
+                    Meals on a Mission supports families by ensuring availability to all who are in need of financial support and assistance the ability to bury their loved ones under the age of 18 with grace and ease. We have developed “In Remembrance of Me” a program developed to assist the families. The Meals On A Mission will be donating 70% of net sales to the contracted funeral homes.
 
 
 

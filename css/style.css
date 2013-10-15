@@ -165,17 +165,29 @@ ul.social li{
 #socialbox{
 	background: none; height: 60px;
 }
-#intervid {
-	padding-left:20px;
-}
 #socialbox2{
-	float: right; background: none; height: 52px; 
+	background: none; width: 635px; height: 52px;
+}
+#intervid {
+	width: 635px; padding-left:20px;
 }
 #fund-thermo{
 	width: 200px; margin-left: 10px;	
 }
 #fund-countdown{
 	width: 800px; margin-right: 10px;
+}
+.fundraising-button{
+	width: 380px; height: 65px; background:url(../images/green-ribbon-button.jpg) no-repeat; padding-top: 5px; color: #fff;
+}
+.fundraising-button2{
+	width: 380px; height: 65px; background:url(../images/green-ribbon-button.jpg) no-repeat; padding-top: 13px; color: #fff; 
+}
+.fundraising-button2 h3{
+	font-size: 15px;
+}
+.fundraising-button:hover, .fundraising-button2:hover{
+	color: #DDD;	
 }
 
 /* Contacts Page */

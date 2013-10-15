@@ -155,7 +155,6 @@
 
 /* END NIVO SLIDER STYLE*/
 
-
 body{
 	background:url(../images/main_background_bg_2.jpg) top left repeat-x;
 	font-family:Arial, Helvetica, sans-serif;
@@ -180,9 +179,9 @@ body{
 	height:auto;
 	margin:0 auto;
 	background:#FFFFFF;
-	-webkit-box-shadow: 4px 2px  #a7a7a7,  -4px 0 2px #a7a7a7;   
-	-moz-box-shadow: 4px 0 2px #a7a7a7,  -4px 0 2px #a7a7a7;   
-	box-shadow: 4px 0 2px #a7a7a7,  -4px 0 2px #a7a7a7;
+	-webkit-box-shadow: 4px 2px  #ddd,  -4px 0 2px #ddd;   
+	-moz-box-shadow: 4px 0 2px #ddd,  -4px 0 2px #ddd;   
+	box-shadow: 4px 0 2px #ddd,  -4px 0 2px #ddd;
 	padding:10px 0px 0px 0px;
 }
 
@@ -380,17 +379,21 @@ body{
 
 .fundraiser_text_about{
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:32px;
+	font-size:22px;
 	font-weight:bold;
 	text-transform: none;
 	color:#00361b;
 	display:block;
 	background:url(../images/funeral_box1.png) 875px -14px no-repeat;
 	width:1024px;
-	height:104px;
+	height:55px;
 	margin:-64px 0px 0px 0px;
 	text-align:center;
 	padding:40px 0px 0px 0px;
+}
+
+ul.social{
+	padding-top:80px;	
 }
 
 .banner_area{
@@ -469,7 +472,7 @@ body{
 
 .left_panel_there_more{
 	width: 555px;
-	height: 460px;
+	height: 500px;
 	background: url(../images/about_left_panel.png) -6px 0px no-repeat;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -484,7 +487,7 @@ body{
 	color: #363636;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 16px;
-    height: 72px;
+    height: 65px;
     position: relative;
     right: -162px;
     text-align: justify;
@@ -526,7 +529,7 @@ body{
 
 .golden_oppurtunitie{
 	width:557px;
-	height:803px;
+	height:823px;
 	background:url(../images/golden_oppurtunitie_panel.png)top left no-repeat;
 }
 
@@ -668,13 +671,9 @@ body{
     height: 115px;
     left: -69px;
     position: relative;
-    top: 28px;
+    top: 79px;
     width: 70px;
 }
-
-
-
-
 
 .scroll_down_text{
 	width:1004px;
@@ -813,8 +812,7 @@ body{
 	width:1024px;
 	height:auto;
 	background:#003309;
-	margin:0 auto;
-	
+	margin:0 auto;	
 }
 
 .footer_left{
