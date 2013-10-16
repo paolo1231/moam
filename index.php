@@ -14,6 +14,7 @@
   <div id="page">
     <div id="header">
 		<?php include_once "header.php" ?>
+        <div class="tagline">The fundraiser changing the world, one bite at a time!</div>
     </div>
     
     <div id="sliderbox">
@@ -87,6 +88,8 @@
         <div class="floatR" id="fund-countdown">
         	<h2 align="center">COUNTDOWN TO THE END OF OUR CROWDFUNDING CAMPAIGN</h2>
             <?php include_once "countdown.php" ?>
+            
+            <div class="clear"></div>
             <a href="#"><div class="floatL fundraising-button"><h3 align="center">Interested Investors</h3></div></a>
             <a href="#"><div class="floatL fundraising-button2"><h3 align="center">Indiegogo Crowdfunding Campaign</h3></div></a>
         </div>

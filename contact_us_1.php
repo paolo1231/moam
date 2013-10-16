@@ -8,6 +8,7 @@
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 <script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
  <script type="text/javascript">
     $(window).load(function() {
 		$("#previousButton, #nextButton").click(function (e) {
@@ -31,20 +32,20 @@
 </script>
 <style>
 #gallery1{
-background-image:url(images/meals_popup.png);
+background-image:url(images/meals_popup_big.png);
 border-radius: 10px 10px 10px 10px;
 box-shadow: 0 0 25px 5px #999;
 display: none;
 min-width: 640px;
-min-height: 310px;
+min-height: 510px;
 }
 #gallery2{
-background-image:url(images/meals_popup.png);
+background-image:url(images/meals_popup_big.png);
 border-radius: 10px 10px 10px 10px;
 box-shadow: 0 0 25px 5px #999;
 display: none;
 min-width: 640px;
-min-height: 310px;
+min-height: 510px;
 }
 #note{
 background-image:url(images/little_chef_participation.png);
@@ -65,12 +66,12 @@ left: 30px;
 #image_gallery1 {
 margin-top: 60px;
 margin-bottom: 30px;
-height: 200px;
+height: 420px;
 }
 #image_gallery2 {
 margin-top: 60px;
 margin-bottom: 30px;
-height: 200px;
+height: 420px;
 }
 
 
@@ -81,24 +82,7 @@ height: 200px;
 <div id="wrap">
   <div id="page">
     <div id="header" style="height:230px;">
-      <div class="floatL"><img src="images/moam_logo_img.png" /></div>
-      <div class="floatL" style="width:800px; padding-top:10px;">
-        <div class="floatL"><img src="images/moam_logo_text.png" /></div>
-        <div class="floatR">
-          <span id="search" class="searchbox round"><form method="" action=""><input type="text" name="search-btn" placeholder="Search" /><input type="submit" name="submit-search" class="search-btn" /></form>
-          </span>
-        </div>
-        <div class="clear"></div>
-        <ul id="nav">
-          <li><a href="" class="round">About Us</a></li>
-          <li><a href="" class="round">Mission News</a></li>
-          <li><a href="" class="round">Fundraiser</a></li>
-          <li><a href="" class="round">Prize Program</a></li>
-          <li><a href="" class="round">Food Games</a></li>
-          <li><a href="" class="round">Q & A</a></li>
-          <li><a href="" class="round">Contact Us</a></li>
-        </ul>
-      </div>
+      <?php include_once "header.php" ?>
       <div class="tagline" style="bottom: 0;">Welcome to the Contact Page<br />"Go ahead and have a click around" </div>
     </div>
     
@@ -113,9 +97,18 @@ height: 200px;
     
     <div id="contactbox">
       <div id="calendar">
-        <span class="daytext">Friday</span>
-        <span class="datetext">4</span>
-        <span class="monthyear">October 2013</span>
+        <span class="daytext">
+			<script language="javascript">document.write ( day_names[current_date.getDay()] );</script>
+        </span>
+        
+        <span class="datetext">
+			<script language="javascript">document.write ( current_date.getDate() );</script>
+        </span>
+        
+        <span class="monthyear">
+			<script language="javascript">document.write ( month_names[current_date.getMonth()] ); document.write(" ");
+            document.write ( current_date.getFullYear() );</script>
+        </span>
       </div>
       
       <div id="ref-closed">
@@ -140,8 +133,7 @@ height: 200px;
 </div>
 
 <div id="gallery1" style="background-color:#FFF;">
-  <div id='image_gallery1'>
-  </div>
+  <?php include_once "image_gallery1.php"; ?>
 </div>
 <div id="gallery2" style="background-color:#FFF;">
   <div id='image_gallery2'>
@@ -163,14 +155,15 @@ height: 200px;
 </table>
 </div>
 
-
 </body>
 </html>
 
 <script type="text/javascript">
 
 function showpopup(popId){	
-  jQuery('#'+popId).bPopup();
+	jQuery('#'+popId).bPopup({
+		position: [550,100]
+	});
   return false;
 };   
 

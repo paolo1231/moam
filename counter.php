@@ -6,8 +6,6 @@
 <link rel="stylesheet" href="js/counter/jquery.counter-analog.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="js/counter/jquery.counter-analog2.css" type="text/css" media="screen" />
 <script type="text/javascript" src="js/counter/jquery.counter.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
-<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 </head>
 
 <body>

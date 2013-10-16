@@ -16,4 +16,3 @@
           <li><a href="contact_us_1.php" class="round">Contact Us</a></li>
         </ul>
 </div>
-<div class="tagline">The fundraiser changing the world, one bite at a time!</div>

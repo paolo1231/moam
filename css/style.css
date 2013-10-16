@@ -272,11 +272,14 @@ a.egg_bskt{
 a.egg_bskt:hover{
 	background: url(../images/egg_b.png) no-repeat center center; height: 124px; width: 130px;
 }
-a.carrot{
-	background: url(../images/carret.png) no-repeat center center; width: 91px; height: 31px; bottom: 5px; left: 65px;
+a.bread{
+	background: url(../images/bread_s.png) no-repeat center center; width: 167px; height: 72px; bottom: 3px; left: 80px;
 }
-a.carrot:hover{
-	background: url(../images/carret_b.png) no-repeat center center; width: 110px; height: 37px;
+a.bread:hover{
+	background: url(../images/bread_b.png) no-repeat center center; width: 184px; height: 79px;
+}
+a.carrot{
+	background: url(../images/carret.png) no-repeat center center; width: 91px; height: 31px; bottom: 5px; left: 65px; cursor:default;
 }
 a.butter_basket{
 	background: url(../images/butter_s.png) no-repeat center center; width: 120px; height: 53px; bottom: 5px; left: 160px;
@@ -284,21 +287,78 @@ a.butter_basket{
 a.butter_basket:hover{
 	background: url(../images/butter_b.png) no-repeat center center; width: 140px; height: 62px;
 }
-a.bread{
-	background: url(../images/bread_s.png) no-repeat center center; width: 167px; height: 72px; bottom: 3px; left: 80px;
-}
-a.bread:hover{
-	background: url(../images/bread_b.png) no-repeat center center; width: 184px; height: 79px;
-}
 a.bread_butter{
-	background: url(../images/bread_butter_s.png) no-repeat center center; width: 100px; height: 43px; bottom: 0; left: 70px;
-}
-a.bread_butter:hover{
-	background: url(../images/bread_butter_b.png) no-repeat center center; width: 130px; height: 56px; 
+	background: url(../images/bread_butter_s.png) no-repeat center center; width: 100px; height: 43px; bottom: 0; left: 70px; cursor:default;
 }
 a.vegi{
-	background: url(../images/btm_veg.png) no-repeat center center; width: 65px; height: 51px; bottom: 3px; left: 195px;
+	background: url(../images/btm_veg.png) no-repeat center center; width: 65px; height: 51px; bottom: 3px; left: 195px; cursor:default;
 }
-a.vegi:hover{
-	background: url(../images/btm_veg_b.png) no-repeat center center; width: 80px; height: 63px;
+
+/* Contact 3 Page */
+
+.big_bread{
+	background: url("../images/bread_big.png") no-repeat scroll 16px 162px transparent;
+    height: 364px;
+    padding: 290px 0 0 75px;
+    width: 1009px;
+}
+
+.contact_area{
+	width:585px;
+	height:270px;
+	font-family:"Myriad Pro";
+}
+
+.contact_area p{
+	font-size:16px;
+	color: #FFF;
+	text-align:justify;
+	padding:8px 0px 14px 0px;
+}
+
+.input_text{
+	background:url(../images/input_text.png) top left no-repeat;
+	width:220px;
+	height:31px;
+	border:none;
+	font-size:12px;
+	color:#6f7278;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 0px;
+}
+
+.select_contact{
+	background:url(../images/input_text.png) top left no-repeat;
+	width:220px;
+	height:30px;
+	border:none;
+	font-size:12px;
+	color:#6f7278;
+	padding:4px 0px 0px 10px;
+}
+
+.text_area{
+	background:url(../images/text_area_bg.png) top left no-repeat;
+	width:220px;
+	height:111px;
+	border:none;
+	font-size:12px;
+	color:#6f7278;
+	padding:4px 0px 0px 10px;
+}
+
+.contact_btn{
+	width:112px;
+	height:33px;
+	background:url(../images/contact_btn.png)top left no-repeat;
+	cursor:pointer;
+	border:none;
+}
+
+.contact_btn:hover{
+	width:112px;
+	height:33px;
+	background:url(../images/contact_btn_hover.png)top left no-repeat;
+	cursor:pointer;
+	border:none;
 }

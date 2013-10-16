@@ -24,7 +24,9 @@
 			// Trigger the slider button
 			$(".nivo-directionNav").find(buttonClass).click();
 		});
-		$('#slider').nivoSlider({effect: 'fade', 
+		$('#slider').nivoSlider({effect: 'slideInLeft', 
+			animSpeed: 400,
+			pauseTime: 13000,
 			 directionNav: true, // Next & Prev navigation
 			controlNav: false // 1,2,3... navigation
 		});

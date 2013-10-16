@@ -7,6 +7,7 @@
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 <script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
  <script type="text/javascript">
     $(window).load(function() {
 		$("#previousButton, #nextButton").click(function (e) {
@@ -30,7 +31,7 @@
 </script>
 <style>
 #milk{
-background: url(images/bottle-pop.png) no-repeat center center transparent !important;
+background: url(images/bottle-pop2.png) no-repeat center center transparent !important;
 border-radius: 10px 10px 10px 10px;
 color: #111;
 display: none;
@@ -132,24 +133,7 @@ height: 80px !important; top: 11px;
 <div id="wrap">
   <div id="page">
     <div id="header" style="height:230px;">
-      <div class="floatL"><img src="images/moam_logo_img.png" /></div>
-      <div class="floatL" style="width:800px; padding-top:10px;">
-        <div class="floatL"><img src="images/moam_logo_text.png" /></div>
-        <div class="floatR">
-          <span id="search" class="searchbox round"><form method="" action=""><input type="text" name="search-btn" placeholder="Search" /><input type="submit" name="submit-search" class="search-btn" /></form>
-          </span>
-        </div>
-        <div class="clear"></div>
-        <ul id="nav">
-          <li><a href="" class="round">About Us</a></li>
-          <li><a href="" class="round">Mission News</a></li>
-          <li><a href="" class="round">Fundraiser</a></li>
-          <li><a href="" class="round">Prize Program</a></li>
-          <li><a href="" class="round">Food Games</a></li>
-          <li><a href="" class="round">Q & A</a></li>
-          <li><a href="" class="round">Contact Us</a></li>
-        </ul>
-      </div>
+      <?php include_once "header.php"; ?>
       <div class="tagline" style="bottom: 0;">Welcome to the Contact Page<br />"Go ahead and have a click around" </div>
     </div>
     
@@ -164,9 +148,18 @@ height: 80px !important; top: 11px;
     
     <div id="contactbox">
       <div id="calendar">
-        <span class="daytext">Friday</span>
-        <span class="datetext">4</span>
-        <span class="monthyear">October 2013</span>
+        <span class="daytext">
+			<script language="javascript">document.write ( day_names[current_date.getDay()] );</script>
+        </span>
+        
+        <span class="datetext">
+			<script language="javascript">document.write ( current_date.getDate() );</script>
+        </span>
+        
+        <span class="monthyear">
+			<script language="javascript">document.write ( month_names[current_date.getMonth()] ); document.write(" ");
+            document.write ( current_date.getFullYear() );</script>
+        </span>
       </div>
       
       <div id="ref-open">
@@ -176,8 +169,8 @@ height: 80px !important; top: 11px;
           <a href="" class="egg_bskt" onClick="showpopup('egg_bskt'); return false;"></a>
         </div>
         <div class="tray2">
-          <a href="" class="carrot" onClick="showpopup('carrot'); return false;"></a>
-          <a href="" class="butter_basket" onClick="showpopup('butter_basket'); return false;"></a>
+          <a href="" class="carrot"></a>
+          <a href="" class="butter_basket"></a>
         </div>
         <div class="tray3">
           <a href="contact_us_3.php" class="bread"></a>
@@ -235,6 +228,8 @@ Popups
 
 <script type="text/javascript">
 function showpopup(popId){
-  jQuery('#'+popId).bPopup();
+  jQuery('#'+popId).bPopup({
+		position: [700,100]
+	});
 }
 </script>

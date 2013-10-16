@@ -7,6 +7,7 @@
 <link href="css/nivo-slider.css" rel="stylesheet" type="text/css"  />
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="js/calendar.js"></script>
  <script type="text/javascript">
     $(window).load(function() {
 		$("#previousButton, #nextButton").click(function (e) {
@@ -66,10 +67,79 @@
     
     <div id="contactbox">
       <div id="calendar">
-        <span class="daytext">Friday</span>
-        <span class="datetext">4</span>
-        <span class="monthyear">October 2013</span>
+        <span class="daytext">
+			<script language="javascript">document.write ( day_names[current_date.getDay()] );</script>
+        </span>
+        
+        <span class="datetext">
+			<script language="javascript">document.write ( current_date.getDate() );</script>
+        </span>
+        
+        <span class="monthyear">
+			<script language="javascript">document.write ( month_names[current_date.getMonth()] ); document.write(" ");
+            document.write ( current_date.getFullYear() );</script>
+        </span>
       </div>
+      
+      <div class="big_bread">
+    
+    	<div class="contact_area">
+        	
+            <p>
+            Here at Meals On A Mission, fundraising and fun go hand in hand!  This sensory page 
+is just a sample of what our website is going to showcase for everyone to interact and 
+enjoy. We want to thank you for taking the time to send us a comment or 
+ask a question!!
+
+            </p>
+            
+            <div style="width:530px; height:auto; padding:0px 0px 0px 20px;">
+            
+            <form id="form3" action="" method ="post">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="6%"><img src="images/name_icon.png" width="17" height="16" alt="" /></td>
+                <td width="46%"> <input type="text" class="input_text" id="name" placeholder="name" /> </td>
+                <td width="48%" rowspan="3" align="left" valign="top">
+                
+                <textarea class="text_area" id="comment">
+</textarea>
+
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/email_icon.png" width="19" height="13" alt="" /></td>
+                <td> <input type="text" class="input_text" id="email" placeholder="E-mail" /></td>
+              </tr>
+              <tr>
+                <td><img src="images/contact_icon.png" width="18" height="21" alt="" /></td>
+                <td><input type="text" class="input_text" id="phone" placeholder="phone" /></td>
+              </tr>
+              <tr>
+                <td><img src="images/drop_down_list_icon.png" width="21" height="16" alt="" /></td>
+                <td>
+                <select class="select_contact" id="opt">
+                  <option value="Organization">Organization</option>
+                  <option value="Church">Church</option>
+                  <option value="School">School</option>
+                  <option value="Funeral Industry">Funeral Industry</option>
+                  <option value="Non-Profit">Non-Profit</option>
+                  <option value="Investor">Investor</option>                  
+                  <option value="Other">Other</option>                  
+				</select>
+				</td>
+                <td> 
+                <input type="submit" value="&nbsp;" id="sendmail" name="sendmail" class="contact_btn" /></td>
+              </tr>
+		</table>
+        <div id="response"></div>
+			</form>
+        </div>
+
+            
+        
+        
+        </div>
       
       
       
