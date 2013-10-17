@@ -2,11 +2,11 @@
 /* ---- Counter ---- */
 
 #counter {
-	width: 700px;
+	width: 550px;
 	height: 145px;
 	margin: 10px auto 0 auto;
 	font-family: 'LeagueGothicRegular', Arial, Helvetica, sans-serif;
-	font-size: 92px;
+	font-size: 55px;
 	color: #272727;
 	text-shadow: 0 1px 0 #fff;
 	overflow: hidden;
@@ -14,9 +14,9 @@
 
 .countDays, .countHours, .countMinutes, .countSeconds {
 	float: left;
-	width: 102px;
-	height: 138px;
-	padding-left: 36px;
+	width: 75px; /*102px;*/
+	height: 108px; /*138px;*/
+	padding-left: 26px;
 	background: #e7e7e7;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.07)));
 	background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.07));
@@ -47,7 +47,7 @@
 	font-size: 44px;
 	font-weight: bold;
 	text-align: center;
-	line-height: 138px;
+	line-height: 108px;
 	text-shadow: none;
 }
 
@@ -68,8 +68,8 @@
 .boxName {
 	float: left;
 	width: 80px;
-	margin: -5px 0 0 7px;
-	font-size: 36px;
+	margin: -30px 0 0 7px;
+	font-size: 26px;
 	color: #a6a6a6;
 	text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }

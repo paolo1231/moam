@@ -140,7 +140,7 @@ height: 420px;
   </div>
 </div>
 <div id="note">
-<table cellspacing="3px">
+<table cellspacing="3px" border="0">
 <tr>
 <td><img src="images/chef_name_id.png" /></td>
 <td><input type="text" name="name" size="30" /></td>
@@ -150,7 +150,7 @@ height: 420px;
 <td><input type="text" name="email" size="30" /></td>
 </tr>
 <tr>
-<td colspan="2"><a href=""><img src="images/show_my_art2.jpg" /></a></td>
+<td colspan="2"><div align="center"><a href=""><img src="images/show_my_art2.jpg" /></a></div></td>
 </tr>
 </table>
 </div>

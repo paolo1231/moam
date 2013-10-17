@@ -206,7 +206,7 @@ These communities are going to host semi-annual tasting galas in which students 
                     </p>
                     
                     <p class="text_box1">
-                    <strong class="text_green">FOOD GAMES FOR FUND$ — </strong>  : We are the PIONEER in Social Networking using a NEW online Gaming Platform in the Fundraising industry. Our assurance to ALL participating web-businsses: Game Players WILL be navigating a page on your website! That’s right, you heard us! Your COMPANY LOGO link is a gatekeeper to an extraordinary, exciting and cutting-edge gaming platform that helps an organization meet its goal! And the BEST PART is that 60% of the acquired revenue from playing, are allocated to participating organizations! It’s a win-win situation! You get all the advertising you need while you’re helping out the organization!
+                    <strong class="text_green">FOOD GAMES FOR FUND$ — </strong>We are the PIONEER in Social Networking using a NEW online Gaming Platform in the Fundraising industry. Our assurance to ALL participating web-businsses: <u>Game Players WILL be navigating a page on your website!</u> That’s right, you heard us! Your COMPANY LOGO link is a gatekeeper to an extraordinary, exciting and cutting-edge gaming platform that helps an organization meet its goal! And the BEST PART is that 60% of the acquired revenue from playing, are allocated to participating organizations! It’s a win-win situation! You get all the advertising you need while you’re helping out the organization!
 
                     </p>
                     

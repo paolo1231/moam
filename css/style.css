@@ -172,19 +172,27 @@ ul.social li{
 	width: 635px; padding-left:20px;
 }
 #fund-thermo{
-	width: 200px; margin-left: 10px;	
+	width: 200px; margin-left: 50px; 
 }
 #fund-countdown{
-	width: 800px; margin-right: 10px;
+	width: 530px; 
+}
+#fund-members{
+	width: 200px; 
+}
+#fundraising-ribbons a{
+	text-decoration: none;	
 }
 .fundraising-button{
-	width: 380px; height: 65px; background:url(../images/green-ribbon-button.jpg) no-repeat; padding-top: 5px; color: #fff;
-}
+	width: 450px; height: 76px; background:url(../images/green-ribbon-button.jpg) no-repeat; padding-top: 8px; color: #fff;}
 .fundraising-button2{
-	width: 380px; height: 65px; background:url(../images/green-ribbon-button.jpg) no-repeat; padding-top: 13px; color: #fff; 
+	width: 450px; height: 76px; background:url(../images/green-ribbon-button.jpg) no-repeat; padding-top: 13px; color: #fff; 
+}
+.fundraising-button h3{
+	font-size: 20px;
 }
 .fundraising-button2 h3{
-	font-size: 15px;
+	font-size: 18px;
 }
 .fundraising-button:hover, .fundraising-button2:hover{
 	color: #DDD;	
@@ -297,7 +305,7 @@ a.vegi{
 /* Contact 3 Page */
 
 .big_bread{
-	background: url("../images/bread_big.png") no-repeat scroll 16px 162px transparent;
+	background: url("../images/bread_big2.png") no-repeat scroll 16px 162px transparent;
     height: 364px;
     padding: 290px 0 0 75px;
     width: 1009px;

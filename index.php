@@ -73,7 +73,7 @@
           <input type="submit" class="subs-submit" value="" />
         </form>
       </div>
-      <div class="clear"></div>
+      <div class="clear"></div><br />
       <h2><font color="#095807">Meals on a Mission</font> would like to give you the honor and privilege <br />to invest in an initiative that WILL HAVE significant consequences and value.</h2>
       <h2>There are rewards for everyone that participates. Please consider a donation <br />and share this link with others. Help us change the world….one bite at a time! </h2>
       <h2>Thank you again! God bless everyone!</h2>
@@ -83,15 +83,20 @@
       </div>
       <div id="fundraising-wrapper">
       	<div class="floatL" id="fund-thermo">
-        	<div style="text-align:center;"><a href="http://www.fund-raising-ideas-center.com/" alt="Fundraising Thermometer"><img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=dollar&goal=45000&current=25&color=red&size=large"></a><p style="font-size:.8em; color:#999">Provided by<a href="http://www.fund-raising-ideas-center.com/" style="display:block; text-decoration:none; font-size:.8em; color:#999">Fund-Raising-Ideas-Center.com</a></p></div>
+        	<div style="text-align:center;"><a href="http://www.fund-raising-ideas-center.com/" alt="Fundraising Thermometer"><img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=dollar&goal=45000&current=25&color=red&size=large"></a><h3 align="center">Funds Raised</h3><p style="font-size:.8em; color:#999">Provided by<a href="http://www.fund-raising-ideas-center.com/" style="display:block; text-decoration:none; font-size:.8em; color:#999">Fund-Raising-Ideas-Center.com</a></p></div>
         </div>
-        <div class="floatR" id="fund-countdown">
+        <div class="floatL" id="fund-countdown">
         	<h2 align="center">COUNTDOWN TO THE END OF OUR CROWDFUNDING CAMPAIGN</h2>
-            <?php include_once "countdown.php" ?>
+            <div style="margin: 0 auto;"><?php include_once "countdown.php" ?></div>
             
-            <div class="clear"></div>
-            <a href="#"><div class="floatL fundraising-button"><h3 align="center">Interested Investors</h3></div></a>
-            <a href="#"><div class="floatL fundraising-button2"><h3 align="center">Indiegogo Crowdfunding Campaign</h3></div></a>
+            <div class="clear"></div><div align="center" id="fundraising-ribbons">
+            <a href="#"><div class="fundraising-button"><h3 align="center">Interested Investors</h3></div></a>
+            <h2>CLICK US!</h2>
+            <a href="#"><div class="fundraising-button2"><h3 align="center">Indiegogo Crowdfunding Campaign</h3></div></a>
+            </div>
+        </div>
+        <div class="floatL" id="fund-members">
+        	<div style="text-align:center;"><a href="http://www.fund-raising-ideas-center.com/" alt="Fundraising Thermometer"><img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=none&goal=100&current=25&color=red&size=large"></a><h3 align="center">Members Joined</h3><p style="font-size:.8em; color:#999">Provided by<a href="http://www.fund-raising-ideas-center.com/" style="display:block; text-decoration:none; font-size:.8em; color:#999">Fund-Raising-Ideas-Center.com</a></p></div>
         </div>
       </div>
     </div>

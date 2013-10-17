@@ -18,7 +18,10 @@ $(document).ready(function(){
 	
 	
 	$('#counter').countdown({
-		timestamp : endDate
+		timestamp : endDate,
+		digitWidth: 13,
+		digitHeight: 18,
+		image: "js/counter/jquery.counter-analog.png"
 	});
 
 

@@ -574,7 +574,7 @@ ul.social{
 
 .extra_panel{
 	background: url("../images/extra_extra_right_panel.png") no-repeat scroll 11px 10px transparent;
-    height: 210px;
+    height: 250px;
     padding: 0 0 30px;
     width: 469px;
 }
@@ -671,7 +671,7 @@ ul.social{
     height: 115px;
     left: -69px;
     position: relative;
-    top: 79px;
+    top: 39px;
     width: 70px;
 }
 

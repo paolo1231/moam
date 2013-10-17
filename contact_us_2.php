@@ -63,8 +63,8 @@ background: url(images/butter_pop.png) no-repeat center center transparent !impo
 border-radius: 10px 10px 10px 10px;
 color: #111;
 display: none;
-min-width: 284px;
-min-height: 126px;
+min-width: 384px;
+min-height: 170px;
 padding: 25px;
 }
 #carrot{
@@ -170,7 +170,7 @@ height: 80px !important; top: 11px;
         </div>
         <div class="tray2">
           <a href="" class="carrot"></a>
-          <a href="" class="butter_basket"></a>
+          <a href="" class="butter_basket" onClick="showpopup('butter_basket'); return false;"></a>
         </div>
         <div class="tray3">
           <a href="contact_us_3.php" class="bread"></a>
@@ -229,7 +229,7 @@ Popups
 <script type="text/javascript">
 function showpopup(popId){
   jQuery('#'+popId).bPopup({
-		position: [700,100]
+		position: [650,100]
 	});
 }
 </script>
