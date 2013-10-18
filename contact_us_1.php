@@ -55,6 +55,14 @@ display: none;
 min-width: 308px;
 min-height: 432px;
 }
+#survey_form{
+display: none;
+/*background:#eee;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 25px 5px #999;*/
+min-width: 640px;
+min-height: 510px;
+}
 table {
 position: relative;
 top: 300px;
@@ -133,7 +141,6 @@ height: 420px;
 </div>
 
 <div id="gallery1" style="background-color:#FFF;">
-  <?php include_once "image_gallery1.php" ?>
 </div>
 <div id="gallery2" style="background-color:#FFF;">
   <div id='image_gallery2'>
@@ -150,9 +157,13 @@ height: 420px;
 <td><input type="text" name="email" size="30" /></td>
 </tr>
 <tr>
-<td colspan="2"><div align="center"><a href=""><img src="images/show_my_art2.jpg" /></a></div></td>
+<td colspan="2"><div align="center"><a href="" onClick="showpopup2('survey_form'); return false;"><img src="images/show_my_art2.jpg" /></a></div></td>
 </tr>
 </table>
+</div>
+
+<div id="survey_form">
+<?php include_once "survey_form/form.html"; ?>
 </div>
 
 </body>
@@ -163,6 +174,13 @@ height: 420px;
 function showpopup(popId){	
 	jQuery('#'+popId).bPopup({
 		position: [550,100]
+	});
+  return false;
+};
+
+function showpopup2(popId){	
+	jQuery('#'+popId).bPopup({
+		position: [350,0]
 	});
   return false;
 };

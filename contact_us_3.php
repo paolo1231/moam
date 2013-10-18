@@ -7,6 +7,7 @@
 <link href="css/nivo-slider.css" rel="stylesheet" type="text/css"  />
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
 <script type="text/javascript" src="js/calendar.js"></script>
  <script type="text/javascript">
     $(window).load(function() {
@@ -29,6 +30,17 @@
  });
     });
 </script>
+
+<style>
+#survey_form{
+display: none;
+/*background:#eee;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 25px 5px #999;*/
+min-width: 640px;
+min-height: 510px;
+}
+</style>
 </head>
 
 <body>
@@ -111,8 +123,8 @@ ask a question!!
                   <option value="Other">Other</option>                  
 				</select>
 				</td>
-                <td> 
-                <input type="submit" value="&nbsp;" id="sendmail" name="sendmail" class="contact_btn" /></td>
+                <td><input type="submit" value="&nbsp;" id="sendmail" name="sendmail" class="contact_btn" /></td>
+                <td><a href="" onClick="showpopup('survey_form'); return false;">Fill up Survey Form</a></td>
               </tr>
 		</table>
         <div id="response"></div>
@@ -139,5 +151,22 @@ ask a question!!
     </div>
   </div>
 </div>
+
+<div id="survey_form">
+<?php include_once "survey_form/form.html"; ?>
+</div>
+
+
 </body>
 </html>
+
+<script type="text/javascript">
+
+function showpopup(popId){	
+	jQuery('#'+popId).bPopup({
+		position: [350,100]
+	});
+  return false;
+};
+
+</script>

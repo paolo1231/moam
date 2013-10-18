@@ -525,6 +525,7 @@ ul.social{
 	width:557px;
 	height:326px;
 	background:url(../images/who_do_we_help_panel.png)top left no-repeat;
+	margin-left:-10px;
 }
 
 .golden_oppurtunitie{
@@ -657,7 +658,7 @@ ul.social{
     font-family: Arial,Helvetica,sans-serif;
     font-size: 16px;
     height: auto;
-    left: 16px;
+    left: 25px;
     position: relative;
     text-align: center;
     top: 173px;

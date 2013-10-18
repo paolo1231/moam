@@ -97,8 +97,8 @@ input[type=submit].search-btn:hover{
 .divider{
 	background: url(../images/divider.jpg) repeat-x center center; height: 29px; margin-bottom: 20px;
 }
-a.play-vid{
-	text-indent: -999999px; background: url(../images/press_play_btn.png) no-repeat center center; height: 71px; width: 324px; overflow: hidden; display: table; margin: 0 auto; cursor: default;
+p.play-vid{
+	text-indent: -999999px; background: url(../images/press_play_btn.png) no-repeat center center; height: 71px; width: 324px; overflow: hidden; display: table; margin: 0 auto; cursor: default; padding: 0;
 }
 /*a.play-vid:hover{
 	background: url(../images/press_play_btn_hover.png) no-repeat center center; 
@@ -172,13 +172,13 @@ ul.social li{
 	width: 635px; padding-left:20px;
 }
 #fund-thermo{
-	width: 200px; margin-left: 50px; 
+	width: 200px; margin-left: 40px;
 }
 #fund-countdown{
 	width: 530px; 
 }
 #fund-members{
-	width: 200px; 
+	width: 200px; margin-right:20px;
 }
 #fundraising-ribbons a{
 	text-decoration: none;	

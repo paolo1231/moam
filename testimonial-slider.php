@@ -14,7 +14,7 @@
       $(".slider").slideshow({
         width      : 900,
         height     : 225,
-        transition : 'slide'
+        transition : 'slide',
       });
     });
 </script>
@@ -24,8 +24,8 @@
 
 <div class="slider">
 	      <div><img src="images/testimonial-1.jpg" alt=""/></div>
-          <div><img src="images/testimonial-1.jpg" alt=""/></div>
-          <div><img src="images/testimonial-1.jpg" alt=""/></div>
+          <div><img src="images/testimonial-2.jpg" alt=""/></div>
+          <div><img src="images/testimonial-3.jpg" alt=""/></div>
 </div>    
 </body>
 </html>

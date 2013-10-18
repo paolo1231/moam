@@ -60,8 +60,8 @@
         </div>
       </div>
       <div class="floatR subs-form">
-        <a href="" class="play-vid">Press to Play</a>
-        <div class="clear" style="height:30px;"></div>
+        <p class="play-vid">Press to Play</p>
+        <div class="clear" style="height:5px;"></div>
         <p align="justify">We're very excited about our seeding campaign. Our goal is to ensure that we help everybody in need.</p>
         <p align="justify">Be involved and become our partner as we meet that goal by filling out the form below.</p>
         <p align="justify">We will keep you updated regarding the upcoming events, news, and our official launch date!</p>
@@ -95,7 +95,7 @@
             <a href="#"><div class="fundraising-button"><h3 align="center">Interested Investors</h3></div></a>
             </div>
         </div>
-        <div class="floatL" id="fund-members">
+        <div class="floatR" id="fund-members">
         	<div style="text-align:center;"><a href="http://www.fund-raising-ideas-center.com/" alt="Fundraising Thermometer"><img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=none&goal=7000&current=700&color=red&size=large"></a><h3 align="center">"Count Us In"<br />Members Joined</h3><p style="font-size:.8em; color:#999">Provided by<a href="http://www.fund-raising-ideas-center.com/" style="display:block; text-decoration:none; font-size:.8em; color:#999">Fund-Raising-Ideas-Center.com</a></p></div>
         </div>
       </div>
