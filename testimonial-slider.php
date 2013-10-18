@@ -13,7 +13,7 @@
     jQuery(document).ready(function($) {
       $(".slider").slideshow({
         width      : 900,
-        height     : 325,
+        height     : 225,
         transition : 'slide'
       });
     });

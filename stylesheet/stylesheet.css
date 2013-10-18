@@ -537,7 +537,7 @@ ul.social{
 	color: #000000;
     font-size: 16px;
     height: auto;
-    line-height: 21px;
+    line-height: 19px;
     position: relative;
     right: -31px;
     text-align: justify;
@@ -643,12 +643,12 @@ ul.social{
 
 
 .church_block{
-	background: url("../images/church_bg.png") no-repeat scroll left top transparent;
+	background: url("../images/church_bg2.png") no-repeat scroll left top transparent;
     height: 508px;
     left: 67px;
     position: relative;
     top: -22px;
-    width: 375px;
+    width: 385px;
 
 }
 

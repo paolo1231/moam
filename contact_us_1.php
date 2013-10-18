@@ -133,7 +133,7 @@ height: 420px;
 </div>
 
 <div id="gallery1" style="background-color:#FFF;">
-  <?php include_once "image_gallery1.php"; ?>
+  <?php include_once "image_gallery1.php" ?>
 </div>
 <div id="gallery2" style="background-color:#FFF;">
   <div id='image_gallery2'>
@@ -165,6 +165,6 @@ function showpopup(popId){
 		position: [550,100]
 	});
   return false;
-};   
+};
 
 </script>

@@ -7,6 +7,7 @@
 <link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="js/default/default.css" type="text/css" media="screen" />
 <link href="nivo-slider.css" rel="stylesheet" type="text/css"  />
+<link href="stylesheet/reset.css" rel="stylesheet" type="text/css" />
 <link href="stylesheet/stylesheet.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
@@ -55,7 +56,6 @@
 		});
     });
     </script>
-
 </head>
 
 <body>
@@ -175,14 +175,7 @@ The fundraiser changing the world, one bite at a time!
         		
                 <div class="left_panel_there_more">
                 	
-                    <p class="first_text">
-                    Our mission is to embark on a life-changing journey where Meals on a Mission’s 	
-                    Outreach will help create local community gardens using the latest in Green
-                    </p>
-                    
-                     <p class="second_text">Technology. <br/><br/>These gardens will be used to support programs that will teach our community youth on how to cook alongside imparting valuable life long lessons of family balance and humility.
-<br />  <br />                                    
-These communities are going to host semi-annual tasting galas in which students will be participating and serving the meals to other children invitees – all of whom comes from abused, orphaned or trafficked homes. This opportunity creates a humbling level of equality for all the participants and spectators alike. Furthermore, this endeavour raises awareness and develops a new generation of individuals who possess technical skills which can be passed on to future generations.</p>
+                   
 
                 
                 
@@ -247,7 +240,7 @@ These communities are going to host semi-annual tasting galas in which students 
             </div>
             
             <div class="about_general_inquieis">
-            	
+              <form action="about_formprocess.php" method="POST">
                 <ul>
                 	
                     <li>
@@ -278,7 +271,7 @@ These communities are going to host semi-annual tasting galas in which students 
                 
                 
                 </ul>
-            
+            </form>
             
             </div>
             
