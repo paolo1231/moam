@@ -37,7 +37,7 @@ border-radius: 10px 10px 10px 10px;
 box-shadow: 0 0 25px 5px #999;
 display: none;
 min-width: 640px;
-min-height: 510px;
+min-height: 530px;
 }
 #gallery2{
 background-image:url(images/meals_popup_big.png);
@@ -45,7 +45,7 @@ border-radius: 10px 10px 10px 10px;
 box-shadow: 0 0 25px 5px #999;
 display: none;
 min-width: 640px;
-min-height: 510px;
+min-height: 530px;
 }
 #note{
 background-image:url(images/little_chef_participation.png);
@@ -141,9 +141,13 @@ height: 420px;
 </div>
 
 <div id="gallery1" style="background-color:#FFF;">
+  <div id='image_gallery1'><br />
+  	<iframe src="image_gallery1/gallery1.html" style="width:635px;height:445px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+  </div>
 </div>
 <div id="gallery2" style="background-color:#FFF;">
-  <div id='image_gallery2'>
+  <div id='image_gallery2'><br />
+  	<iframe src="image_gallery2/gallery2.html" style="width:635px;height:445px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
   </div>
 </div>
 <div id="note">
@@ -163,7 +167,7 @@ height: 420px;
 </div>
 
 <div id="survey_form">
-<?php include_once "survey_form/form.html"; ?>
+<iframe src="survey_form/form.html" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 </body>
@@ -180,7 +184,7 @@ function showpopup(popId){
 
 function showpopup2(popId){	
 	jQuery('#'+popId).bPopup({
-		position: [350,0]
+		position: [500,0]
 	});
   return false;
 };

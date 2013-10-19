@@ -472,8 +472,8 @@ ul.social{
 
 .left_panel_there_more{
 	width: 555px;
-	height: 500px;
-	background: url(../images/about_left_panel.png) -6px 0px no-repeat;
+	height: 520px;
+	background: url(../images/about_left_panel2.png) -6px 0px no-repeat;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	color: #363636;
@@ -530,7 +530,7 @@ ul.social{
 
 .golden_oppurtunitie{
 	width:557px;
-	height:823px;
+	height:833px;
 	background:url(../images/golden_oppurtunitie_panel.png)top left no-repeat;
 }
 
@@ -578,6 +578,16 @@ ul.social{
     height: 250px;
     padding: 0 0 30px;
     width: 469px;
+}
+
+p#newsfeed_link {
+	width: 370px;
+	padding: 184px 0 0 108px;
+}
+
+p#newsfeed_link a {
+	text-decoration:none;
+	color:#333;	
 }
 
 .about_general_inquieis{
@@ -649,7 +659,7 @@ ul.social{
     left: 67px;
     position: relative;
     top: -22px;
-    width: 385px;
+    width: 397px;
 
 }
 
@@ -658,7 +668,7 @@ ul.social{
     font-family: Arial,Helvetica,sans-serif;
     font-size: 16px;
     height: auto;
-    left: 25px;
+    left: 35px;
     position: relative;
     text-align: center;
     top: 173px;
@@ -672,7 +682,7 @@ ul.social{
     height: 115px;
     left: -69px;
     position: relative;
-    top: 39px;
+    top: 54px;
     width: 70px;
 }
 

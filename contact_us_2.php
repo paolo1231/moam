@@ -164,20 +164,20 @@ height: 80px !important; top: 11px;
       
       <div id="ref-open">
         <div class="tray1">
-          <a href="" class="milk" onClick="showpopup('milk'); return false;"></a>
+          <a href="" class="milk" onClick="showpopup2('milk'); return false;"></a>
           <a href="" class="fruit_bskt" onClick="showpopup('fruit_bskt'); return false;"></a>
           <a href="" class="egg_bskt" onClick="showpopup('egg_bskt'); return false;"></a>
         </div>
         <div class="tray2">
-          <a href="" class="carrot"></a>
+          <div class="carrot"></div>
           <a href="" class="butter_basket" onClick="showpopup('butter_basket'); return false;"></a>
         </div>
         <div class="tray3">
           <a href="contact_us_3.php" class="bread"></a>
         </div>
         <div class="tray4">
-          <a href="" class="bread_butter"></a>
-          <a href="" class="vegi"></a>
+          <div class="bread_butter"></div>
+          <div class="vegi"></div>
         </div>
       </div>
       
@@ -230,6 +230,12 @@ Popups
 function showpopup(popId){
   jQuery('#'+popId).bPopup({
 		position: [650,100]
+	});
+}
+
+function showpopup2(popId){
+  jQuery('#'+popId).bPopup({
+		position: [650,30]
 	});
 }
 </script>

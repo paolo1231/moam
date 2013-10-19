@@ -14,8 +14,7 @@ $(document).ready(function(){
 
 	/* ---- Countdown timer ---- */
 	var endDate = new Date(); 
-	endDate = new Date(endDate.getFullYear() + 1, 1 - 1, 1);
-	
+	endDate = new Date(2013,11,4);
 	
 	$('#counter').countdown({
 		timestamp : endDate,

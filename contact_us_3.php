@@ -153,7 +153,7 @@ ask a question!!
 </div>
 
 <div id="survey_form">
-<?php include_once "survey_form/form.html"; ?>
+<iframe src="survey_form/form.html" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 

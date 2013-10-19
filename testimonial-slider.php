@@ -23,9 +23,10 @@
 <body>
 
 <div class="slider">
-	      <div><img src="images/testimonial-1.jpg" alt=""/></div>
           <div><img src="images/testimonial-2.jpg" alt=""/></div>
           <div><img src="images/testimonial-3.jpg" alt=""/></div>
+          <div><img src="images/testimonial-4.jpg" alt=""/></div>
+          <div><img src="images/testimonial-5.jpg" alt=""/></div>
 </div>    
 </body>
 </html>

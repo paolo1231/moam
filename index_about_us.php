@@ -186,7 +186,7 @@ The fundraiser changing the world, one bite at a time!
                 
                 <div class="golden_oppurtunitie">
                 	
-                    <p class="text_box1">
+                    <p class="text_box1"><br />
                     <strong class="text_green">PREMIUM LOGO AD SPOTS — </strong>  Our solution is pure and simple. We provide a clean and efficient way to market your website. Your ads are strategically placed on our webpage, on a billboard next to our Chef, which attracts more attention and site visitors. For more information, send us an email and we will gladly provide all the information you need.
 
                     </p>
@@ -237,6 +237,7 @@ The fundraiser changing the world, one bite at a time!
         <div class="right_area_about">
         	
             <div class="extra_panel">
+            <p id="newsfeed_link"><a href="http://www.sbwire.com/press-releases/startup-invents-new-way-to-fundraise-by-solving-4-problems-and-developing-social-awareness-318620.htm">Startup Invents New Way to Fundraise by Solving <br />4 Problems and Developing Social Awareness</a></p>
             </div>
             
             <div class="about_general_inquieis">

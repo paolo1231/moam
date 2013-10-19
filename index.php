@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script src="http://api.longtailvideo.com/library/FOaJCjgOEeOf1RIxOQfUww.js"></script>
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js">\x3C/script>')</script>
 </head>
@@ -28,7 +29,16 @@
       <div class="slider-wrapper">
       	<div class="flexslider">
           <ul class="slides">
-          	<li><iframe id="player_1" src="http://player.vimeo.com/video/76841055?api=1&amp;player_id=player_1" width="679" height="329" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>
+          	<li><div id='playerweE8B8ME'></div>
+			<script type='text/javascript'>
+                jwplayer('playerweE8B8ME').setup({
+                    playlist: 'https://jwpsrv.com/feed/weE8B8ME.rss',
+                    width: '660',
+                    height: '329',
+                    fallback: 'false',
+                    primary: 'flash'
+                });
+            </script></li>
            	<li><img src="images/slide-1.jpg" /></li>
   	    	<li><img src="images/slide-2.jpg" /></li>
   	    	<li><img src="images/slide-3.jpg" /></li>
@@ -83,7 +93,7 @@
       </div><br />
       <div id="fundraising-wrapper">
       	<div class="floatL" id="fund-thermo">
-        	<div style="text-align:center;"><a href="http://www.fund-raising-ideas-center.com/" alt="Fundraising Thermometer"><img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=dollar&goal=60000&current=7500&color=red&size=large"></a><h3 align="center">Funds Raised</h3><p style="font-size:.8em; color:#999">Provided by<a href="http://www.fund-raising-ideas-center.com/" style="display:block; text-decoration:none; font-size:.8em; color:#999">Fund-Raising-Ideas-Center.com</a></p></div>
+        	<div style="text-align:center;"><a href="http://www.fund-raising-ideas-center.com/" alt="Fundraising Thermometer"><img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=dollar&goal=60000&current=0&color=red&size=large"></a><h3 align="center">Funds Raised</h3><p style="font-size:.8em; color:#999">Provided by<a href="http://www.fund-raising-ideas-center.com/" style="display:block; text-decoration:none; font-size:.8em; color:#999">Fund-Raising-Ideas-Center.com</a></p></div>
         </div>
         <div class="floatL" id="fund-countdown">
         	<h2 align="center">COUNTDOWN TO THE END OF OUR CROWDFUNDING CAMPAIGN</h2>
@@ -91,13 +101,13 @@
             
             <div class="clear"></div><div align="center" id="fundraising-ribbons">
             <a href="#"><div class="fundraising-button2"><h3 align="center">Indiegogo Crowdfunding Campaign</h3></div></a>
-            <h2 align="center"><img src="images/click-us.png" width="350"/></h2>
-            <a href="#"><div class="fundraising-button"><h3 align="center">Interested Investors</h3></div></a>
+            <h2 align="center"><img src="images/click-me.png" width="350"/></h2>
+            <!--<a href="#"><div class="fundraising-button"><h3 align="center">Interested Investors</h3></div></a>-->
             </div>
         </div>
-        <div class="floatR" id="fund-members">
-        	<div style="text-align:center;"><a href="http://www.fund-raising-ideas-center.com/" alt="Fundraising Thermometer"><img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=none&goal=7000&current=700&color=red&size=large"></a><h3 align="center">"Count Us In"<br />Members Joined</h3><p style="font-size:.8em; color:#999">Provided by<a href="http://www.fund-raising-ideas-center.com/" style="display:block; text-decoration:none; font-size:.8em; color:#999">Fund-Raising-Ideas-Center.com</a></p></div>
-        </div>
+        <!--<div class="floatR" id="fund-members">
+        	<div style="text-align:center;"><a href="http://www.fund-raising-ideas-center.com/" alt="Fundraising Thermometer"><img border="0" src="http://thermometer.fund-raising-ideas-center.com/thermometer.php?currency=none&goal=7000&current=0&color=red&size=large"></a><h3 align="center">"Count Us In"<br />Members Joined</h3><p style="font-size:.8em; color:#999">Provided by<a href="http://www.fund-raising-ideas-center.com/" style="display:block; text-decoration:none; font-size:.8em; color:#999">Fund-Raising-Ideas-Center.com</a></p></div>
+        </div>-->
       </div>
     </div>
     <div class="clear"></div>
@@ -111,7 +121,7 @@
 </div>
 
 <!-- FlexSlider -->
-<script src="js/jquery.flexslider.js"></script>
+<script defer src="js/jquery.flexslider.js"></script>
 
 <script type="text/javascript">
     $(function(){
@@ -120,7 +130,7 @@
     $(window).load(function(){
 
       // Vimeo API nonsense
-      var player = document.getElementById('player_1');
+     /* var player = document.getElementById('player_1');
       $f(player).addEvent('ready', ready);
 
       function addEvent(element, eventName, callback) {
@@ -137,7 +147,7 @@
         froogaloop.addEvent('pause', function(data) {
           $('.flexslider').flexslider("play");
         });
-      }
+      }*/
 
 
       // Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
@@ -145,7 +155,7 @@
         //.fitVids()
         .flexslider({
           animation: "slide",
-		  controlNav: "",
+		  /*controlNav: "",
           useCSS: false,
           animationLoop: false,
           smoothHeight: true,
@@ -154,11 +164,11 @@
           },
           before: function(slider){
             $f(player).api('pause');
-          }
+          }*/
       });
     });
 </script>
-<script src="js/froogaloop.js"></script>
-<script src="js/jquery.fitvid.js"></script>
+<!--<script src="js/froogaloop.js"></script>
+<script src="js/jquery.fitvid.js"></script>-->
 </body>
 </html>

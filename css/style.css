@@ -172,7 +172,7 @@ ul.social li{
 	width: 635px; padding-left:20px;
 }
 #fund-thermo{
-	width: 200px; margin-left: 40px;
+	width: 200px; margin-left: 140px;
 }
 #fund-countdown{
 	width: 530px; 
@@ -286,8 +286,8 @@ a.bread{
 a.bread:hover{
 	background: url(../images/bread_b.png) no-repeat center center; width: 184px; height: 79px;
 }
-a.carrot{
-	background: url(../images/carret.png) no-repeat center center; width: 91px; height: 31px; bottom: 5px; left: 65px; cursor:default;
+div.carrot{
+	background: url(../images/carret.png) no-repeat center center; width: 91px; height: 31px; bottom: 5px; top: 75px; left: 65px; cursor:default;
 }
 a.butter_basket{
 	background: url(../images/butter_s.png) no-repeat center center; width: 120px; height: 53px; bottom: 5px; left: 160px;
@@ -295,11 +295,11 @@ a.butter_basket{
 a.butter_basket:hover{
 	background: url(../images/butter_b.png) no-repeat center center; width: 140px; height: 62px;
 }
-a.bread_butter{
-	background: url(../images/bread_butter_s.png) no-repeat center center; width: 100px; height: 43px; bottom: 0; left: 70px; cursor:default;
+div.bread_butter{
+	background: url(../images/bread_butter_s.png) no-repeat center center; width: 100px; height: 43px; bottom: 0; left: 70px; top:65px; cursor:default;
 }
-a.vegi{
-	background: url(../images/btm_veg.png) no-repeat center center; width: 65px; height: 51px; bottom: 3px; left: 195px; cursor:default;
+div.vegi{
+	background: url(../images/btm_veg.png) no-repeat center center; width: 65px; height: 51px; bottom: 3px; top:10px; left: 195px; cursor:default;
 }
 
 /* Contact 3 Page */
