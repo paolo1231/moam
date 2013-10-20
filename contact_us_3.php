@@ -124,7 +124,6 @@ ask a question!!
 				</select>
 				</td>
                 <td><input type="submit" value="&nbsp;" id="sendmail" name="sendmail" class="contact_btn" /></td>
-                <td><a href="" onClick="showpopup('survey_form'); return false;">Fill up Survey Form</a></td>
               </tr>
 		</table>
         <div id="response"></div>
@@ -144,10 +143,7 @@ ask a question!!
   <div class="page-bottom"></div>
   <div id="bottom">
     <div class="bottom-cont">
-      <div class="floatL">Copyright &copy; 2012. All rights reserved. MEALS ON A MISSION.</div>
-      <div class="floatR links">
-        <a href="">Contact Us</a>&bull;<a href="">Terms of Service</a>&bull;<a href="" class="last">Privacy Policy</a>
-      </div>
+      <?php include_once "footer.php" ?>
     </div>
   </div>
 </div>
@@ -161,12 +157,10 @@ ask a question!!
 </html>
 
 <script type="text/javascript">
-
 function showpopup(popId){	
 	jQuery('#'+popId).bPopup({
 		position: [350,100]
 	});
   return false;
 };
-
 </script>

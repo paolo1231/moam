@@ -187,10 +187,7 @@ height: 80px !important; top: 11px;
   <div class="page-bottom"></div>
   <div id="bottom">
     <div class="bottom-cont">
-      <div class="floatL">Copyright &copy; 2012. All rights reserved. MEALS ON A MISSION.</div>
-      <div class="floatR links">
-        <a href="">Contact Us</a>&bull;<a href="">Terms of Service</a>&bull;<a href="" class="last">Privacy Policy</a>
-      </div>
+      <?php include_once "footer.php" ?>
     </div>
   </div>
 </div>
@@ -206,12 +203,12 @@ Popups
 </div>
 <div id="egg_bskt">
 <div class="egg_tray1">
-<a href="" class="fb_egg egg"></a>
-<a href="" class="twit_egg egg"></a>
-<a href="" class="yt_egg egg"></a>
+<a href="https://www.facebook.com/MOAMfundraiser" class="fb_egg egg"></a>
+<a href="http://twitter.com/moamfundraiser" class="twit_egg egg"></a>
+<a href="http://youtu.be/Zdc9ByyViuA" class="yt_egg egg"></a>
 </div>
 <div class="egg_tray2">
-<a href="" class="li_egg egg"></a>
+<a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820" class="li_egg egg"></a>
 <a href="" class="goog_egg egg"></a>
 <a href="" class="inst_egg egg"></a>
 </div>

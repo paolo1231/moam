@@ -12,7 +12,7 @@
           <li><a href="" class="round">Fundraiser</a></li>
           <li><a href="" class="round">Prize Program</a></li>
           <li><a href="" class="round">Food Games</a></li>
-          <li><a href="" class="round">Q & A</a></li>
+          <li><a href="q_and_a.php" class="round">Q & A</a></li>
           <li><a href="contact_us_1.php" class="round">Contact Us</a></li>
         </ul>
 </div>

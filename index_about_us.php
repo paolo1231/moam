@@ -324,15 +324,15 @@ ONE BITE AT A TIME!
     	<ul>
         	
             <li>
-            <a href="#"> Contact Us</a>
+            <a href="contact_us_1.php"> Contact Us</a>
             </li>
             
             <li>
-           <a href="#"> • Terms of Service </a>
+           <a href="terms_and_conditions.php"> • Terms of Service </a>
             </li>
             
             <li>
-            <a href="#"> • Privacy Policy </a>
+            <a href="privacy_statement.php"> • Privacy Policy </a>
             </li>
         
         </ul>

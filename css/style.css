@@ -1,7 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background: url(../images/moam_bg.png) repeat; margin: 0; padding: 0; font-family: 'Museo700';
+	background: url(../images/moam_bg.png) repeat;
+	margin: 0;
+	padding: 0;
+	font-family: 'Museo700';
 }
 
 /* Global */
@@ -370,3 +373,73 @@ div.vegi{
 	cursor:pointer;
 	border:none;
 }
+
+/* Terms and Conditions */
+
+#terms_conditions_box {
+	width: 820px; 
+	height: 100%; 
+	position: relative; 
+	padding: 10px 40px 10px 40px;
+	margin: 0 auto;
+	background:#FFF;
+	box-shadow: 0px 2px 3px 0px #000;
+	-moz-box-shadow: 0px 2px 3px 0px #000;
+	-webkit-box-shadow: 0px 2px 3px 0px #000;
+}
+
+#terms_conditions_box p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+#terms_conditions_box ol li {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Privacy Statement */
+
+#privacy_statement_box {
+	width: 820px; 
+	height: 100%; 
+	position: relative; 
+	padding: 10px 40px 10px 40px;
+	margin: 0 auto;
+	background:#FFF;
+	box-shadow: 0px 2px 3px 0px #000;
+	-moz-box-shadow: 0px 2px 3px 0px #000;
+	-webkit-box-shadow: 0px 2px 3px 0px #000;
+}
+
+#privacy_statement_box p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+#privacy_statement_box ol li {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Question and Answer */
+
+#q_and_a_box {
+	width: 820px; 
+	height: 100%; 
+	position: relative; 
+	padding: 10px 40px 10px 40px;
+	margin: 0 auto;
+	background:#FFF;
+	box-shadow: 0px 2px 3px 0px #000;
+	-moz-box-shadow: 0px 2px 3px 0px #000;
+	-webkit-box-shadow: 0px 2px 3px 0px #000;
+}
+
+#q_and_a_box p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+#q_and_a_box ol li {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
