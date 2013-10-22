@@ -36,7 +36,7 @@
   <div id="page">
     <div id="header" style="height:230px;">
       <?php include_once "header.php"; ?>
-      <div class="tagline" style="bottom: 0;">Welcome to the Contact Page<br />"Go ahead and have a click around" </div>
+      <div class="tagline" style="bottom: 0;">Welcome to the Privacy Statement Page</div>
     </div>
     
     <div id="socialbox">

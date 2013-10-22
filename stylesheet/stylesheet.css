@@ -538,11 +538,11 @@ ul.social{
 	color: #000000;
     font-size: 16px;
     height: auto;
-    line-height: 19px;
+    line-height: 18px;
     position: relative;
-    right: -31px;
+    right: -25px;
     text-align: justify;
-    top: 78px;
+    top: 87px;
     width: 478px;
 }
 
@@ -550,12 +550,12 @@ ul.social{
      color: #3440AB;
     font-size: 16px;
     height: auto;
-    line-height: 20px;
+    line-height: 19px;
     padding: 5px 0 4px;
     position: relative;
-    right: -31px;
+    right: -25px;
     text-align: center;
-    top: 78px;
+    top: 87px;
     width: 478px;
 }
 
