@@ -9,10 +9,11 @@
 <link href="nivo-slider.css" rel="stylesheet" type="text/css"  />
 <link href="stylesheet/reset.css" rel="stylesheet" type="text/css" />
 <link href="stylesheet/stylesheet.css" rel="stylesheet" type="text/css" />
-
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
-    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
-    <script type="text/javascript">
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
+
+<script type="text/javascript">
     $(window).load(function() {
 		$("#previousButton, #nextButton").click(function (e) {
 	
@@ -55,7 +56,17 @@
 		  })
 		});
     });
-    </script>
+</script>
+<style>
+#survey_form{
+display: none;
+/*background:#eee;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 25px 5px #999;*/
+min-width: 640px;
+min-height: 510px;
+}
+</style>
 </head>
 
 <body>
@@ -267,7 +278,7 @@ The fundraiser changing the world, one bite at a time!
                     </li>
                     
                     <li>
-                    <input type="button" class="count_me_btn"/>
+                    <input type="button" class="count_me_btn" onclick="showpopup('survey_form'); return false;"/>
                     </li>
                 
                 
@@ -345,8 +356,18 @@ ONE BITE AT A TIME!
 
 </div>
 
-
-
+<div id="survey_form">
+<iframe src="survey_form/form.html" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+</div>
 
 </body>
 </html>
+
+<script type="text/javascript">
+
+function showpopup(popId){	
+	jQuery('#'+popId).bPopup({});
+  return false;
+};
+
+</script>

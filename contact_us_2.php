@@ -31,12 +31,19 @@
 </script>
 <style>
 #milk{
-background: url(images/bottle-pop2.png) no-repeat center center transparent !important;
 border-radius: 10px 10px 10px 10px;
 color: #111;
 display: none;
 min-width: 377px;
-min-height: 607px;
+min-height: 650px;
+padding: 25px;
+}
+#milk2{
+border-radius: 10px 10px 10px 10px;
+color: #111;
+display: none;
+min-width: 569px;
+min-height: 600px;
 padding: 25px;
 }
 #fruit_bskt{
@@ -121,7 +128,14 @@ background: url(images/inst_btn.png) no-repeat top center; top: 18px; bottom: 0;
 .inst_egg:hover{
 height: 80px !important; top: 11px;
 }
-
+#milkform{
+display: none;
+/*background:#eee;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 25px 5px #999;*/
+min-width: 640px;
+min-height: 510px;
+}
 
 
 
@@ -198,6 +212,10 @@ Popups
 </body>
 
 <div id="milk">
+	<a href="" onClick="showpopup3('milk2'); return false;"><img src="images/bottle-pop3.png"/></a>
+</div>
+<div id="milk2">
+	<a href="" onClick="showpopup3('milkform'); return false;"><img src="images/milk_flat.png"/></a>
 </div>
 <div id="fruit_bskt">
 </div>
@@ -219,6 +237,9 @@ Popups
 </div>
 <div id="vegi">
 </div>
+<div id="milkform">
+<iframe src="milk_form.php" style="width:660px;min-height:650px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+</div>
 </html>
 
 
@@ -234,5 +255,9 @@ function showpopup2(popId){
   jQuery('#'+popId).bPopup({
 		position: [650,30]
 	});
+}
+
+function showpopup3(popId){
+  jQuery('#'+popId).bPopup({});
 }
 </script>

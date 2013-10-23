@@ -116,7 +116,7 @@ p.play-vid{
 	display: block; width: 80%; margin: 10px auto; padding: 10px; border: 1px solid #CCC;;
 }
 .subs-submit{
-	background: url(../images/submit_btn_hover.png) no-repeat center center; height: 49px; width: 170px; margin: 0 auto; border: 0; outline: 0; display: table;
+	background: url(../images/submit_btn_hover.png) no-repeat center center; height: 49px; width: 170px; margin: 0 auto; border: 0; outline: 0; display: table; cursor:pointer;
 }
 .subs-submit:hover{
 	background: url(../images/submit_btn.png) no-repeat center center;
@@ -266,10 +266,10 @@ a.note:hover{
 	position: absolute; display: block;
 }
 a.milk{
-	background: url(../images/milk_b.png) no-repeat center center; height: 140px; width: 87px; bottom: 0; left: 60px;
+	background: url(../images/milk_b2.png) no-repeat center center; height: 140px; width: 87px; bottom: 0; left: 60px;
 }
 a.milk:hover{
-	background: url(../images/milk_c.png) no-repeat center center; height: 160px; width: 99px;
+	background: url(../images/milk_c2.png) no-repeat center center; height: 160px; width: 99px;
 }
 a.fruit_bskt{
 	background: url(../images/fruit_basket.png) no-repeat center center; height: 114px; width: 131px; bottom: 3px; left: 150px;
@@ -443,3 +443,12 @@ div.vegi{
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+#milk_form {
+	width: 590px;
+	margin: 0 auto;
+	padding:10px;
+}
+
+#milk_form p {
+	font-family: Arial, Helvetica, sans-serif;	
+}
