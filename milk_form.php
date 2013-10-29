@@ -19,7 +19,7 @@ min-height: 510px;
 </style>
 </head>
 
-<body>
+<body style="background:#fff;">
 <div align="center" id="milk_form">
 <h2>CALLING ALL WEB BUSINESSES</h2>
 <p>We are the PIONEER in Social Networking using a NEW online Gaming Platform in the Fundraising industry.</p>

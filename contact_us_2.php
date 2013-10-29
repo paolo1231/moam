@@ -154,9 +154,9 @@ min-height: 510px;
     <div id="socialbox">
       <ul class="social">
         <li><a href="#"><img src="images/rss_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://twitter.com/MOAMfundraiser"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://www.facebook.com/MOAMfundraiser"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
       </ul>
     </div>
     
@@ -221,13 +221,13 @@ Popups
 </div>
 <div id="egg_bskt">
 <div class="egg_tray1">
-<a href="https://www.facebook.com/MOAMfundraiser" class="fb_egg egg"></a>
-<a href="http://twitter.com/moamfundraiser" class="twit_egg egg"></a>
-<a href="http://youtu.be/Zdc9ByyViuA" class="yt_egg egg"></a>
+<a href="https://www.facebook.com/MealsOnAMissionfundraiser" class="fb_egg egg"></a>
+<a href="https://twitter.com/MOAMfundraiser" class="twit_egg egg"></a>
+<a href="http://youtu.be/Zdc9BYYViuA" class="yt_egg egg"></a>
 </div>
 <div class="egg_tray2">
 <a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820" class="li_egg egg"></a>
-<a href="" class="goog_egg egg"></a>
+<a href="https://plus.google.com/111501272728082855473/about" class="goog_egg egg"></a>
 <a href="" class="inst_egg egg"></a>
 </div>
 </div>

@@ -1,3 +1,4 @@
+<?php require "sessions.php"; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -145,17 +146,17 @@ The fundraiser changing the world, one bite at a time!
           </li>
       
       <li>
-      <a href="#">
+      <a href="https://twitter.com/MOAMfundraiser">
         <img src="images/twi_icon.png" width="28" height="26" alt="" /> 
         </a></li>
         
         <li>
-        <a href="#">
+        <a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820">
         <img src="images/pink_icon.png" width="28" height="26" alt="" /> 
          </a></li>
          
         <li>
-        <a href="#">
+        <a href="https://www.facebook.com/MealsOnAMissionfundraiser">
         <img src="images/fb_icon.png" width="28" height="26" alt="" />
         </a>
          </li>
@@ -248,37 +249,37 @@ The fundraiser changing the world, one bite at a time!
         <div class="right_area_about">
         	
             <div class="extra_panel">
-            <p id="newsfeed_link"><a href="http://www.sbwire.com/press-releases/startup-invents-new-way-to-fundraise-by-solving-4-problems-and-developing-social-awareness-318620.htm">Startup Invents New Way to Fundraise by Solving <br />4 Problems and Developing Social Awareness</a></p>
+            <p id="newsfeed_link">Startup Invents New Way to Fundraise by Solving <br />4 Problems and Developing Social Awareness:<br /> <a href="http://www.sbwire.com/press-releases/startup-invents-new-way-to-fundraise-by-solving-4-problems-and-developing-social-awareness-318620.htm">Link 1 | </a><a href="http://www.i-newswire.com/startup-invents-new-way-to-fundraise/236366">Link 2</a></p>
             </div>
             
             <div class="about_general_inquieis">
-              <form action="about_formprocess.php" method="POST">
+              <form name="about_form" action="" method="POST">
                 <ul>
                 	
                     <li>
-                     <input type="text" class="input_about" placeholder="First Name"/>
+                     <input type="text" class="input_about" name="fname" id="fname" placeholder="First Name"/>
                     </li>
                     
 					<li>
-                     <input type="text" class="input_about" placeholder="Last Name"/>
+                     <input type="text" class="input_about" name="lname" id="lname" placeholder="Last Name"/>
                     </li>
                     
                     <li>
-                     <input type="text" class="input_about" placeholder="Contact Number"/>
+                     <input type="text" class="input_about" name="cnum" id="cnum" placeholder="Contact Number"/>
                     </li>
                     
                     <li>
-                     <input type="text" class="input_about" placeholder="Email"/>
+                     <input type="text" class="input_about" name="email" id="email" placeholder="Email"/>
                     </li>
                     
                                      
                     <li>
-                    <textarea class="form_about" placeholder="Message"></textarea>
+                    <textarea class="form_about" name="message" id="message" placeholder="Message"></textarea>
                     
                     </li>
                     
                     <li>
-                    <input type="button" class="count_me_btn" onclick="showpopup('survey_form'); return false;"/>
+                    <input type="button" class="count_me_btn" name="count_me_in" id="count_me_in"/>
                     </li>
                 
                 
@@ -365,8 +366,28 @@ ONE BITE AT A TIME!
 
 <script type="text/javascript">
 
+$("#count_me_in").click(function(e) {
+  e.preventDefault();
+  var fname = $("#fname").val(); 
+  var lname = $("#lname").val();
+  var cnum = $("#cnum").val();
+  var email = $("#email").val();
+  var message = $("#message").val();
+  var dataString = 'fname='+fname+'&lname='+lname+'&cnum='+cnum+'&email='+email+'&message='+message;
+  $.ajax({
+    type:'POST',
+    data:dataString,
+    url:'about_formprocess.php',
+    success:function(data) {
+      alert(data);
+    }
+  });
+  jQuery('#survey_form').bPopup({});
+  return false;
+});
+
 function showpopup(popId){	
-	jQuery('#'+popId).bPopup({});
+	jQuery('#survey_form').bPopup({});
   return false;
 };
 

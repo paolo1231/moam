@@ -1,3 +1,4 @@
+<?php require "sessions.php"; ?>
 <!doctype html>
 <html><head>
 <meta charset="utf-8">
@@ -33,9 +34,9 @@ min-height: 510px;
     <div id="sliderbox">
       <ul class="social">
         <li><a href="#"><img src="images/rss_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://twitter.com/MOAMfundraiser"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://www.facebook.com/MealsOnAMissionfundraiser"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
       </ul>
       <div id="prevBtn" class="floatL"></div><div id="nextBtn" class="floatR"></div>
       <div class="slider-wrapper">
@@ -75,10 +76,10 @@ min-height: 510px;
         <iframe width="615" height="415" src="//www.youtube.com/embed/Ewu40HCUZuY" frameborder="0" allowfullscreen></iframe>
         </div>
         <div id="socialbox2" align="right">    
-            <a href="#"><img src="images/fb_icon2.png" width="30" alt=""></a>
-            <a href="#"><img src="images/linkedin_icon.png" width="30" alt=""></a>
-            <a href="#"><img src="images/twitter_icon2.png" width="30" alt=""></a>
-            <a href="#"><img src="images/googleplus_icon.png" width="30" alt=""></a>
+            <a href="https://www.facebook.com/MealsOnAMissionfundraiser"><img src="images/fb_icon2.png" width="30" alt=""></a>
+            <a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820"><img src="images/linkedin_icon.png" width="30" alt=""></a>
+            <a href="https://twitter.com/MOAMfundraiser"><img src="images/twitter_icon2.png" width="30" alt=""></a>
+            <a href="https://plus.google.com/111501272728082855473/about"><img src="images/googleplus_icon.png" width="30" alt=""></a>
         </div>
       </div>
       <div class="floatR subs-form">

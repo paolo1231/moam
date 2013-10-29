@@ -28,6 +28,7 @@
           <div><img src="images/testimonial-4.jpg" alt=""/></div>
           <div><img src="images/testimonial-5.jpg" alt=""/></div>
           <div><img src="images/testimonial-6.jpg" alt=""/></div>
+          <div><img src="images/testimonial-7.jpg" alt=""/></div>
 </div>    
 </body>
 </html>
