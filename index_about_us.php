@@ -94,23 +94,23 @@ min-height: 510px;
         </li>
         
         <li>
-       <a href="index_about_us.php" class="mission"> Mission News</a>
+       <a href="mission_news.php" class="mission"> Mission News</a>
         </li>
         
         <li>
-       <a href="index_about_us.php" class="fundraiser"> Fundraiser</a>
+       <a href="fundraiser.php" class="fundraiser"> Fundraiser</a>
         </li>
         
         <li>
-       <a href="index_about_us.php" class="prize_program"> Prize Program</a>
+       <a href="prize_program.php" class="prize_program"> Prize Program</a>
         </li>
         
         <li>
-       <a href="index_about_us.php" class="food_games_nav"> Food Games</a>
+       <a href="food_games.php" class="food_games_nav"> Food Games</a>
         </li>
         
         <li>
-       <a href="index_about_us.php" class="qa_nav"> Q & A</a>
+       <a href="q_and_a.php" class="qa_nav"> Q & A</a>
         </li>
         
         <li>
@@ -146,17 +146,17 @@ The fundraiser changing the world, one bite at a time!
           </li>
       
       <li>
-      <a href="https://twitter.com/MOAMfundraiser">
+      <a href="https://twitter.com/MOAMfundraiser" target="_blank">
         <img src="images/twi_icon.png" width="28" height="26" alt="" /> 
         </a></li>
         
         <li>
-        <a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820">
+        <a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820" target="_blank">
         <img src="images/pink_icon.png" width="28" height="26" alt="" /> 
          </a></li>
          
         <li>
-        <a href="https://www.facebook.com/MealsOnAMissionfundraiser">
+        <a href="https://www.facebook.com/MealsOnAMissionfundraiser" target="_blank">
         <img src="images/fb_icon.png" width="28" height="26" alt="" />
         </a>
          </li>
@@ -385,10 +385,5 @@ $("#count_me_in").click(function(e) {
   jQuery('#survey_form').bPopup({});
   return false;
 });
-
-function showpopup(popId){	
-	jQuery('#survey_form').bPopup({});
-  return false;
-};
 
 </script>

@@ -452,3 +452,17 @@ div.vegi{
 #milk_form p {
 	font-family: Arial, Helvetica, sans-serif;	
 }
+
+/* Other */
+
+#main_content_box {
+	width: 820px; 
+	height: 100%; 
+	position: relative; 
+	padding: 10px 40px 10px 40px;
+	margin: 0 auto;
+	background:#FFF;
+	box-shadow: 0px 2px 3px 0px #000;
+	-moz-box-shadow: 0px 2px 3px 0px #000;
+	-webkit-box-shadow: 0px 2px 3px 0px #000;
+}

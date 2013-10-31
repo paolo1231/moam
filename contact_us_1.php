@@ -97,9 +97,9 @@ height: 420px;
     <div id="socialbox">
       <ul class="social">
         <li><a href="#"><img src="images/rss_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://twitter.com/MOAMfundraiser" target="_blank"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820" target="_blank"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://www.facebook.com/MealsOnAMissionfundraiser" target="_blank"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
       </ul>
     </div>
     
@@ -121,8 +121,8 @@ height: 420px;
       
       <div id="ref-closed">
         <div class="knob"><a href="contact_us_2.php" class="fridge_handle"><img src="images/open_door_1.png" /></a></div>
-        <a href="" class="gallery1" onClick="showpopup('gallery1'); return false;"></a>
-        <a href="" class="gallery2" onClick="showpopup('gallery2'); return false;"></a>
+        <a href="" class="gallery1" onClick="showgallery('gallery1'); return false;"></a>
+        <a href="" class="gallery2" onClick="showgallery('gallery2'); return false;"></a>
         <a href="" class="note" onClick="showpopup('note'); return false;"></a>
       </div>
       
@@ -174,7 +174,16 @@ height: 420px;
 
 function showpopup(popId){	
 	jQuery('#'+popId).bPopup({
-		position: [550,100]
+		position: [550,50],
+		transition: 'slideDown'
+	});
+  return false;
+};
+
+function showgallery(gallId){	
+	jQuery('#'+gallId).bPopup({
+		position: ['auto',50],
+		transition: 'slideDown'
 	});
   return false;
 };

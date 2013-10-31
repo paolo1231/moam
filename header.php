@@ -8,10 +8,10 @@
         <div class="clear"></div>
         <ul id="nav">
           <li><a href="index_about_us.php" class="round">About Us</a></li>
-          <li><a href="" class="round">Mission News</a></li>
-          <li><a href="" class="round">Fundraiser</a></li>
-          <li><a href="" class="round">Prize Program</a></li>
-          <li><a href="" class="round">Food Games</a></li>
+          <li><a href="mission_news.php" class="round">Mission News</a></li>
+          <li><a href="fundraiser.php" class="round">Fundraiser</a></li>
+          <li><a href="prize_program.php" class="round">Prize Program</a></li>
+          <li><a href="food_games.php" class="round">Food Games</a></li>
           <li><a href="q_and_a.php" class="round">Q & A</a></li>
           <li><a href="contact_us_1.php" class="round">Contact Us</a></li>
         </ul>

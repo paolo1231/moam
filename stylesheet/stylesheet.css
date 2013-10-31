@@ -393,7 +393,8 @@ body{
 }
 
 ul.social{
-	padding-top:80px;	
+	padding-top:80px;
+	z-index:999;	
 }
 
 .banner_area{

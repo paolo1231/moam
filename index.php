@@ -7,7 +7,6 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
-<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
 <script src="http://api.longtailvideo.com/library/FOaJCjgOEeOf1RIxOQfUww.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js">\x3C/script>')</script>
 
@@ -34,9 +33,9 @@ min-height: 510px;
     <div id="sliderbox">
       <ul class="social">
         <li><a href="#"><img src="images/rss_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="https://twitter.com/MOAMfundraiser"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="https://www.facebook.com/MealsOnAMissionfundraiser"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://twitter.com/MOAMfundraiser" target="_blank"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820" target="_blank"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://www.facebook.com/MealsOnAMissionfundraiser" target="_blank"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
       </ul>
       <div id="prevBtn" class="floatL"></div><div id="nextBtn" class="floatR"></div>
       <div class="slider-wrapper">
@@ -190,7 +189,7 @@ min-height: 510px;
 
 </body>
 </html>
-
+<script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
 <script type="text/javascript">
 
 function showpopup(){	

@@ -54,9 +54,9 @@ min-height: 510px;
     <div id="socialbox">
       <ul class="social">
         <li><a href="#"><img src="images/rss_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
-        <li><a href="#"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://twitter.com/MOAMfundraiser" target="_blank"><img src="images/twi_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="http://www.linkedin.com/pub/beverly-gonzalez/79/683/820" target="_blank"><img src="images/pink_icon.png" width="28" height="26" alt=""></a></li>
+        <li><a href="https://www.facebook.com/MOAMfundraiser" target="_blank"><img src="images/fb_icon.png" width="28" height="26" alt=""></a></li>
       </ul>
     </div>
     
