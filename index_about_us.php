@@ -279,7 +279,7 @@ The fundraiser changing the world, one bite at a time!
                     </li>
                     
                     <li>
-                    <input type="button" class="count_me_btn" name="count_me_in" id="count_me_in"/>
+                    <input type="submit" class="count_me_btn" value="" name="count_me_in" id="count_me_in"/>
                     </li>
                 
                 
@@ -358,7 +358,7 @@ ONE BITE AT A TIME!
 </div>
 
 <div id="survey_form">
-<iframe src="survey_form/form.html" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<iframe src="survey_form/form.php" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 </body>

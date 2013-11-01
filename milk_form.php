@@ -34,12 +34,12 @@ min-height: 510px;
 <p><strong>Leave Your Contact Information</strong></p>
 <table>
 <form action="" method="">
-<tr><td align="right"><label><strong>Web business name:</strong></label></td><td><input type="text" name="" /></td></tr>
-<tr><td align="right"><label><strong>Website address:</strong></label></td><td><input type="text" name="" /></td></tr>
-<tr><td align="right"><label><strong>Contact name:</strong></label></td><td><input type="text" name="" /></td></tr>
-<tr><td align="right"><label><strong>Title:</strong></label></td><td><input type="text" name="" /></td></tr>
-<tr><td align="right"><label><strong>Email:</strong></label></td><td><input type="text" name="" /></td></tr>
-<tr><td></td><td><input type="button" name="" value="Submit" onClick="showpopup('survey_form'); return false;"/></td></tr>
+<tr><td align="right"><label><strong>Web business name:</strong></label></td><td><input type="text" name="webname" id="webname" /></td></tr>
+<tr><td align="right"><label><strong>Website address:</strong></label></td><td><input type="text" name="webadd" id="webadd" /></td></tr>
+<tr><td align="right"><label><strong>Contact name:</strong></label></td><td><input type="text" name="contmilk_name" id="contmilk_name" /></td></tr>
+<tr><td align="right"><label><strong>Title:</strong></label></td><td><input type="text" name="contmilk_title" id="contmilk_title" /></td></tr>
+<tr><td align="right"><label><strong>Email:</strong></label></td><td><input type="text" name="contmilk_email" id="contmilk_email" /></td></tr>
+<tr><td></td><td><input type="submit" name="contmilk_submit" value="Submit" id="contmilk_submit"/></td></tr>
 </form>
 </table>
 <p><strong>and we will contact you with all the details!</strong></p>
@@ -48,14 +48,33 @@ We are a clean family web company and intend to keep it that way for all to enjo
 </div>
 
 <div id="survey_form">
-<iframe src="survey_form/form.html" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<iframe src="survey_form/form.php" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 </body>
 </html>
 
 <script type="text/javascript">
-function showpopup(popId){
-  jQuery('#'+popId).bPopup({});
-}
+
+$("#contmilk_submit").click(function(e) {
+  e.preventDefault();
+  var webname = $("#webname").val(); 
+  var webadd = $("#webadd").val();
+  var contmilk_name = $("#contmilk_name").val();
+  var contmilk_title = $("#contmilk_title").val();
+  var contmilk_email = $("#contmilk_email").val();
+
+  var dataString = 'webname='+webname+'&webadd='+webadd+'&contmilk_name='+contmilk_name+'&contmilk_title='+contmilk_title+'&contmilk_email='+contmilk_email;
+  $.ajax({
+    type:'POST',
+    data:dataString,
+    url:'contmilk_formprocess.php',
+    success:function(data) {
+      alert(data);
+    }
+  });
+  jQuery('#survey_form').bPopup({});
+  return false;
+});
+
 </script>

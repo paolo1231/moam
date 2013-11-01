@@ -305,6 +305,10 @@ div.vegi{
 	background: url(../images/btm_veg.png) no-repeat center center; width: 65px; height: 51px; bottom: 3px; top:10px; left: 195px; cursor:default;
 }
 
+/*#milk2 a:hover {
+	background: url(../images/milk_flat_hover.png) no-repeat center center; width:519px; height:650px; cursor:pointer;
+}*/
+
 /* Contact 3 Page */
 
 .big_bread{
@@ -465,4 +469,20 @@ div.vegi{
 	box-shadow: 0px 2px 3px 0px #000;
 	-moz-box-shadow: 0px 2px 3px 0px #000;
 	-webkit-box-shadow: 0px 2px 3px 0px #000;
+}
+
+#success_box {
+	width: 570px;
+	height: 100%;
+	position: relative; 
+	padding: 10px 40px 10px 40px;
+	margin: 0 auto;
+	background:#FFF;
+	box-shadow: 0px 2px 3px 0px #000;
+	-moz-box-shadow: 0px 2px 3px 0px #000;
+	-webkit-box-shadow: 0px 2px 3px 0px #000;
+}
+
+#cont_submit {
+	background: url(../images/show_my_art2.jpg) no-repeat center center; height: 34px; width: 123px; margin: 0 auto; border: 0; outline: 0; display: table; cursor:pointer;
 }

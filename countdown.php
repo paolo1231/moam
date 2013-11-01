@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 	/* ---- Countdown timer ---- */
 	var endDate = new Date(); 
-	endDate = new Date(2013,11,7);
+	endDate = new Date(2013,11,17);
 	
 	$('#counter').countdown({
 		timestamp : endDate,

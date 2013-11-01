@@ -94,26 +94,22 @@ ask a question!!
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="6%"><img src="images/name_icon.png" width="17" height="16" alt="" /></td>
-                <td width="46%"> <input type="text" class="input_text" id="name" placeholder="name" /> </td>
-                <td width="48%" rowspan="3" align="left" valign="top">
-                
-                <textarea class="text_area" id="comment">
-</textarea>
-
-                </td>
+                <td width="46%"> <input type="text" class="input_text" id="bread_name" name="bread_name" placeholder="name" /> </td>
+                <td width="48%" rowspan="3" align="left" valign="top"><textarea class="text_area" id="bread_comment" name="bread_comment">
+</textarea></td>
               </tr>
               <tr>
                 <td><img src="images/email_icon.png" width="19" height="13" alt="" /></td>
-                <td> <input type="text" class="input_text" id="email" placeholder="E-mail" /></td>
+                <td> <input type="text" class="input_text" id="bread_email" placeholder="E-mail" name="bread_email"/></td>
               </tr>
               <tr>
                 <td><img src="images/contact_icon.png" width="18" height="21" alt="" /></td>
-                <td><input type="text" class="input_text" id="phone" placeholder="phone" /></td>
+                <td><input type="text" class="input_text" id="bread_phone" placeholder="phone" name="bread_phone"/></td>
               </tr>
               <tr>
                 <td><img src="images/drop_down_list_icon.png" width="21" height="16" alt="" /></td>
                 <td>
-                <select class="select_contact" id="opt">
+                <select class="select_contact" id="bread_org" name="bread_org">
                   <option value="Organization">Organization</option>
                   <option value="Church">Church</option>
                   <option value="School">School</option>
@@ -123,11 +119,11 @@ ask a question!!
                   <option value="Other">Other</option>                  
 				</select>
 				</td>
-                <td><input type="submit" value="&nbsp;" id="sendmail" name="sendmail" class="contact_btn" /></td>
+                <td><input type="submit" value="" id="breadform_submit" name="breadform_submit" class="contact_btn" /></td>
               </tr>
 		</table>
-        <div id="response"></div>
-			</form>
+        </form>
+        <div id="response"></div>		
         </div>
 
             
@@ -149,7 +145,7 @@ ask a question!!
 </div>
 
 <div id="survey_form">
-<iframe src="survey_form/form.html" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<iframe src="survey_form/form.php" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 
@@ -157,10 +153,24 @@ ask a question!!
 </html>
 
 <script type="text/javascript">
-function showpopup(popId){	
-	jQuery('#'+popId).bPopup({
-		position: [350,100]
-	});
+$("#breadform_submit").click(function(e) {
+  e.preventDefault();
+  var bread_name = $("#bread_name").val(); 
+  var bread_comment = $("#bread_comment").val();
+  var bread_email = $("#bread_email").val();
+  var bread_phone = $("#bread_phone").val();
+  var bread_org = $("#bread_org").val();
+
+  var dataString = 'bread_name='+bread_name+'&bread_comment='+bread_comment+'&bread_email='+bread_email+'&bread_phone='+bread_phone+'&bread_org='+bread_org;
+  $.ajax({
+    type:'POST',
+    data:dataString,
+    url:'contact3_formprocess.php',
+    success:function(data) {
+      alert(data);
+    }
+  });
+  jQuery('#survey_form').bPopup({});
   return false;
-};
+});
 </script>

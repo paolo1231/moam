@@ -48,7 +48,7 @@
       </ul>
     </div>
     
-    <div id="mission_news_box">
+    <div id="main_content_box">
     	
                 
     </div>

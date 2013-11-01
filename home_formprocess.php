@@ -5,24 +5,18 @@ if(!isset($_SESSION['createkey'])){
 	die();
 }
 
-$fname = $_POST['fname'];
-$lname = $_POST['lname'];
-$cnum = $_POST['cnum'];
+$name = $_POST['name'];
 $senderemail = $_POST['email'];
-$message = $_POST['message'];
 
 $recipient = 'customerservice@meals-ona-mission.com, bevgonzalez@meals-ona-mission.com, akosip31@gmail.com';
 $headers = 	'From: '.$senderemail. "\r\n" . 
 			'MIME-Version: 1.0' . "\r\n" .
 			'Content-type:text/html;charset=iso-8859-1' . "\r\n" .
 			'X-Mailer: PHP/' . phpversion();
-$subject = 'MOAM - About Us Form';
+$subject = 'MOAM - Homepage Form';
 
-$content = "<h1>Homepage Form Info</h1><br /><strong>First Name:</strong> ".$fname.
-"<br /><strong>Last Name:</strong> ".$lname.
-"<br /><strong>Contact Number:</strong> ".$cnum.
-"<br /><strong>Email:</strong> ".$senderemail.
-"<br /><strong>Message:</strong> ".$message;
+$content = "<h1>Homepage Form Info</h1><br />Name: ".$name.
+"<br />Email: ".$senderemail;
 
 $content = wordwrap($content,70);
   

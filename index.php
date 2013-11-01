@@ -90,9 +90,9 @@ min-height: 510px;
         <center><img src="images/your_group_text.png" /></center>
         <div class="clear" style="height:10px;"></div>
         <form method="POST" action="">
-          <input type="text" class="subs-text round" name="subsName" placeholder="Name" />
-          <input type="text" class="subs-text round" name="subsEmail" placeholder="Email" />
-          <input type="button" class="subs-submit" onclick="showpopup(); return false;" />
+          <input type="text" class="subs-text round" name="subsName" placeholder="Name" id="name"/>
+          <input type="text" class="subs-text round" name="subsEmail" placeholder="Email" id="email"/>
+          <input type="submit" class="subs-submit" id="submit_home" value=""/>
         </form>
       </div>
       <div class="clear"></div><br /><br />
@@ -112,7 +112,7 @@ min-height: 510px;
             <div style="margin: 0 auto;"><?php include_once "countdown.php" ?></div>
             
             <div class="clear"></div><div align="center" id="fundraising-ribbons">
-            <a href="#"><div class="fundraising-button2"><h3 align="center">Indiegogo Crowdfunding Campaign</h3></div></a>
+            <a href="http://igg.me/at/MOAM/x/4863605" target="_blank"><div class="fundraising-button2"><h3 align="center">Indiegogo Crowdfunding Campaign</h3></div></a>
             <h2 align="center"><img src="images/click-me.png" width="350"/></h2>
             <!--<a href="#"><div class="fundraising-button"><h3 align="center">Interested Investors</h3></div></a>-->
             </div>
@@ -133,7 +133,7 @@ min-height: 510px;
 </div>
 
 <div id="survey_form">
-<iframe src="survey_form/form.html" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<iframe src="survey_form/form.php" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 <!-- FlexSlider -->
@@ -192,9 +192,21 @@ min-height: 510px;
 <script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
 <script type="text/javascript">
 
-function showpopup(){	
-	jQuery('#survey_form').bPopup({});
+$("#submit_home").click(function(e) {
+  e.preventDefault();
+  var name = $("#name").val(); 
+  var email = $("#email").val();
+  var dataString = 'name='+name+'&email='+email;
+  $.ajax({
+    type:'POST',
+    data:dataString,
+    url:'home_formprocess.php',
+    success:function(data) {
+      alert(data);
+    }
+  });
+  jQuery('#survey_form').bPopup({});
   return false;
-};
+});
 
 </script>

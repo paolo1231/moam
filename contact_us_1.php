@@ -147,30 +147,50 @@ height: 420px;
   	<iframe src="image_gallery2/gallery2.html" style="width:635px;height:445px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
   </div>
 </div>
+
 <div id="note">
+<form name="contact_us1_form" id="contact_us1_form" action="" method="POST">
 <table cellspacing="3px" border="0">
 <tr>
 <td><img src="images/chef_name_id.png" /></td>
-<td><input type="text" name="name" size="30" /></td>
+<td><input type="text" name="name" id="cont_name" size="30" /></td>
 </tr>
 <tr>
 <td><img src="images/chef_email_id.png" /></td>
-<td><input type="text" name="email" size="30" /></td>
+<td><input type="text" name="email" id="cont_email" size="30" /></td>
 </tr>
 <tr>
-<td colspan="2"><div align="center"><a href="" onClick="showpopup2('survey_form'); return false;"><img src="images/show_my_art2.jpg" /></a></div></td>
+<td colspan="2"><div align="center"><input type="submit" id="cont_submit" value=""/></div></td>
 </tr>
 </table>
+</form>
 </div>
 
 <div id="survey_form">
-<iframe src="survey_form/form.html" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<iframe src="survey_form/form.php" style="width:650px;min-height:700px;max-width:100%;overflow:visible;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 </body>
 </html>
 
 <script type="text/javascript">
+
+$("#cont_submit").click(function(e) {
+  e.preventDefault();
+  var cont_name = $("#cont_name").val(); 
+  var cont_email = $("#cont_email").val();
+  var dataString = 'cont_name='+cont_name+'&cont_email='+cont_email;
+  $.ajax({
+    type:'POST',
+    data:dataString,
+    url:'contact1_formprocess.php',
+    success:function(data) {
+      alert(data);
+    }
+  });
+  jQuery('#survey_form').bPopup({});
+  return false;
+});
 
 function showpopup(popId){	
 	jQuery('#'+popId).bPopup({

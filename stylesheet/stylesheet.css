@@ -635,7 +635,7 @@ p#newsfeed_link a {
 }
 
 .count_me_btn{
-	background: url("../images/count_me_about.png") no-repeat scroll left top transparent;
+	background: url(../images/count_me_about.png) no-repeat scroll left top transparent;
     border: medium none;
     display: block;
     height: 51px;
@@ -1479,14 +1479,14 @@ p#newsfeed_link a {
 }
 
 
-input[type="submit"] {
+/*input[type="submit"] {
     background: url("../images/show_my_art_btn.jpg") repeat scroll 0 0 transparent;
     border: medium none;
     cursor: pointer;
     height: 33px;
     margin: 4px 0 0 28px;
     width: 123px;
-}
+}*/
 
 
 .chef_input {
